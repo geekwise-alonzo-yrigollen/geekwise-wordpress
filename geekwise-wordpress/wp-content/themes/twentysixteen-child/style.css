@@ -1,0 +1,47 @@
+/*
+ Theme Name:   Twenty Sixteen Child
+ Theme URI:    http://example.com/twenty-sixteen-child/
+ Description:  Twenty Sixteen Child Theme
+ Author:       Geekwise Academy
+ Author URI:   http://example.com
+ Template:     twentysixteen
+ Version:      1.2
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-sixteen-child
+*/
+
+main{
+    
+    background-color:#7a1501;
+    
+}
+
+/*#tinymce{*/
+    
+/*    color:#7a1501;*/
+/*    height:30em;*/
+/*    width:100%;*/
+/*}*/
+#faster{
+    
+    color:white;
+    font-size:1.3em;
+    
+}
+
+#left{
+     border-right-width: thin;  
+}
+
+#teach{
+    color:white;
+}
+
+.name{
+    
+    color:orange;
+    width:30%;
+    height:20%;
+}
