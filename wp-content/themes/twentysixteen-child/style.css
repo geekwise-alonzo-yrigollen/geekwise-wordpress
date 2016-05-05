@@ -21,3 +21,29 @@
     
     color:#fff;
 }
+
+.text-center{
+    
+    color:#fff;
+    
+}
+
+.letters{
+    
+    text-transform:uppercase;
+    font-size:13px;
+    font-weight:500;
+    color:#fff;
+}
+
+.table{
+    
+    background-color:#fff;
+}
+.td{
+    
+    height:3px;
+    
+}
+
+
