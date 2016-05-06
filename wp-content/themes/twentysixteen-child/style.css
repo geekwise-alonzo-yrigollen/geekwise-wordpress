@@ -12,6 +12,16 @@
  Text Domain:  twenty-sixteen-child
 */
 
+header img{
+    
+    margin:0 auto;
+    display:block;
+    width:704px;
+    height:350px;
+    
+}
+
+
 #main{
     
     background-color:#7a1501;
