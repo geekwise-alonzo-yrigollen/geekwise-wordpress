@@ -32,7 +32,25 @@
     height:455px;
     
 }
+#menu-item-42 a{
+    
+    background-color:#f9da0c;
+    
+}
 
+div.site-header-main{
+    
+    display:block;
+    margin:0 auto;
+    padding-left:15em;
+    
+}
+
+div.site-header-main a:hover{
+    
+    
+    background-color:#f9da0c;
+}
 
 
 /*commence styles for main owl header image*/
