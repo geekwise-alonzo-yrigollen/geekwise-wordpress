@@ -12,6 +12,32 @@
  Text Domain:  twenty-sixteen-child
 */
 
+
+
+/*commence nav bar styles*/
+
+#menu-navigation li:hover{
+    
+    margin:0 auto;
+    color:yellow;
+    background-color:blue;
+    
+}
+.entry-title{
+    
+    visibility:hidden;
+}
+#post-29{
+    
+    height:455px;
+    
+}
+
+
+
+/*commence styles for main owl header image*/
+
+
 header img{
     
     margin:0 auto;
@@ -21,6 +47,10 @@ header img{
     
 }
 
+#content{
+    
+    height:100%;
+}
 
 #main{
     
