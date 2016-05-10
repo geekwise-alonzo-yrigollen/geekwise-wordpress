@@ -12,7 +12,13 @@
  Text Domain:  twenty-sixteen-child
 */
 
-
+#custom-img-header{
+    
+    
+    width:50px;
+    height:50px;
+    
+}
 
 /*commence nav bar styles*/
 
@@ -70,37 +76,46 @@
     
 }
 
-div.site-header-main{
+.site-header-main{
     
     display:block;
     margin:0 auto;
     padding-left:15em;
-    
+   
 }
 
-div.site-header-main a:hover{
+/*.content-column{*/
+    
+/*    background-color:#fff;*/
+/*    width:100%;*/
+/*    display:block;*/
+/*    text-align:center;*/
+    
+/*}*/
+
+/*div.site-header-main a:hover{*/
     
     
-    background-color:#f9da0c;
-}
+/*    background-color:#f9da0c;*/
+/*}*/
 
 
 /*commence styles for main owl header image*/
 
 
-header img{
-    
-    margin:0 auto;
-    display:block;
-    width:704px;
-    height:350px;
-    
-}
+/*header img{*/
 
-#content{
+/*    margin:0 auto;*/
+/*    display:block;*/
+/*    width:704px;*/
+/*    height:350px;*/
     
-    height:100%;
-}
+/*}*/
+
+/*#content{*/
+    
+/*    height:100%;*/
+/*}*/
 
 #main{
     
