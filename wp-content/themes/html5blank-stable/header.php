@@ -21,6 +21,12 @@
             tests: {}
         });
         </script>
+        
+        <!--commence new code found on wordpress code-->
+        <script type="text/javascript" src="path/mootools-release-1.11.js"></script>
+<script type="text/javascript" src="path/rokbox.js"></script>
+<link href="path/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="path/rokbox-config.js"></script>
 
 	</head>
 	<body <?php body_class(); ?>>

@@ -26,82 +26,220 @@
 	text-rendering:optimizeLegibility;
 }
 /* html element 62.5% font-size for REM use */
-html {
-	font-size:62.5%;
-}
-body {
-	font:300 11px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	color:#444;
-}
-/* clear */
-.clear:before,
-.clear:after {
-    content:' ';
-    display:table;
+html,body{
+    margin: 0;
+    padding: 0;
+    
 }
 
-.clear:after {
-    clear:both;
+/*HOME PAGE BODY IS HERE*/
+
+body{
+    margin: 0;
+    padding: 0;
 }
-.clear {
-    *zoom:1;
-}
-img {
-	max-width:100%;
-	vertical-align:bottom;
-}
-a {
-	color:#444;
-	text-decoration:none;
-}
-a:hover {
-	color:#444;
-}
-a:focus {
-	outline:0;
-}
-a:hover,
-a:active {
-	outline:0;
-}
-input:focus {
-	outline:0;
-	border:1px solid #04A4CC;
+.fa{
+    visibility:hidden;
 }
 
-/*------------------------------------*\
-    STRUCTURE
-\*------------------------------------*/
+/*BELOW HEADER HAS AN ID="STAY"*/
 
-/* wrapper */
-.wrapper {
-	max-width:1280px;
-	width:95%;
-	margin:0 auto;
-	position:relative;
+/*BELOW NAV HAS AN ID="topbar"*/
+
+header{
+    display:block;
+    padding:0;
+    height:25.3rem;
 }
-/* header */
-.header {
-	 
-}
-/* logo */
-.logo {
+
+#topbar{
+    display:flex;
+    justify-content:center;
 
 }
-.logo-img {
+
+/*UL IS DISPLAYED BLOCK */
+
+ul{
+    display:block;
+    list-style:none;
+    line-height:1rem;
+}
+
+/*LI DISPLAY INLINE-BLOCK MAKES LIST INDIVIDUALLY BOXED IN A HORIZONTAL LINE*/
+
+li{
+    padding:1rem;
+    display:inline-block;
+    float:left;
+    font-size:.8rem;
+    font-weight:600;
+    text-transform:uppercase;
+    transform:translateY(-1.3em);
+}
+li:hover{
+    color:#7a1501;
+    background-color:#f9da0c;
+}
+
+/*ACTIVE CLASS REFERS TO THE SIGN UP BUTTON*/
+
+.active{
+    
+    background-color:#f9da0c;
 
 }
-/* nav */
-.nav {
 
+.active > a{
+    color:#7a1501;
 }
-/* sidebar */
-.sidebar {
 
+a{
+    text-decoration:none;
+    color:black;
 }
-/* footer */
-.footer {
 
+/*BELOW WILL MAKE YOUR ANCHOR TAG HOVER RED*/
+
+a:hover{
+    display:block;
+    color:#7a1501;
+}
+
+#geekwise{
+    margin:0 auto;
+    
+}
+
+h2{
+    position:relative;
+    top:30px;
+    font-family:"franchise";
+    font-size: 2.0em;
+    text-align:center;
+    margin:40px auto 0px auto;
+    color:white;
+    text-transform:uppercase;
+}
+
+h3{
+    position:relative;
+    top:30px;
+    font-family:"ciria";
+    font-size:2.0em;
+    font-weight:100;
+    text-align:center;
+    margin:0 auto;
+    width:59%;
+    color:white;
+    font-weight:thin;
+    text-transform:lowercase;
+}
+
+
+/*THIS IS WHERE THE HEADER ENDS AND MAROONISH COLOR BEGINS AT BOTTOM*/
+
+.bottom{
+    height:400px;
+    background-color:#7A1501; 
+}
+
+.icons{
+    position:relative;
+    top:50px;
+    display:block;
+    color:white;
+    float:left;
+    text-transform:uppercase;
+    text-align:center;
+    width:calc(100%/3);
+}
+
+.center{
+    width:23rem;
+    border-right:solid white .03rem;
+    border-left:solid white .03rem;
+}
+
+#bars{
+    display:none;
+    float:right;
+}
+topbar{
+    height:auto;
+    display:inline;
+    float:right;
+    
+    
+}
+.fa{
+    
+    float:right;
+    display:block;
+    
+}
+.list{
+    
+    float:right;
+    text-align:right;
+    display:block;
+}
+
+span>img{
+    
+    margin:0 auto;
+    display:block;
+    
+}
+
+/*COMMENCE MEDIA*/
+
+@media only screen and (max-width:1021px){
+    
+    {
+        margin-left:300px;
+    }
+}
+@media only screen and (max-width:900px){
+    .fa{
+        visibility: visible;
+        color: gray;
+    }
+   
+    li{
+        text-align:left;
+        width: 100px;
+        color: black;
+    }
+    nav{
+        
+        visibility:visible;
+    }
+
+    
+}
+@media only screen and (max-width:600px){
+    .lines{
+        margin-left:170px;
+    }
+}
+@media only screen and (max-width:480px){
+    img{
+        width:100%;
+        height: auto;
+    }
+    
+    .icons{
+        margin-left: 70px;
+        width: 10%;
+        height: auto;
+        
+    }
+    li{
+      visibility:hidden;
+      text-align: right;
+    
+    }
 }
 
 /*------------------------------------*\
