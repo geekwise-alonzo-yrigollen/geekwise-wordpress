@@ -1,0 +1,243 @@
+/* global box-sizing */
+*,
+*:after,
+*:before {
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+}
+/* html element 62.5% font-size for REM use */
+html, body{
+    margin:0 auto;
+    padding:0;
+    font-size:67.5%;
+}
+
+body{
+    box-sizing:border-box;
+    margin:0;
+    width:100%;
+    height:100%;
+    background-color:#7a1501;
+    text-align:center;
+    font-family:sans-serif;
+
+}
+header{
+    margin:0 auto;
+    width:100%;
+    height:16rem;  
+    display:block;
+    background-color:white;
+    background-image:url("http://i.imgur.com/OpvA4Rr.jpg");
+    background-repeat:no-repeat;
+    
+}
+nav{
+    
+    height:4rem;
+    display:block;
+    margin:0 auto;
+    transform:translateX(3em);
+    font-size:2em;
+}
+
+.logo{
+    
+    display:none;
+    /*margin:0 auto;*/
+    /*padding:1rem;*/
+    /*display:block;*/
+    /*float:left;*/
+
+}
+#imag{
+    width:13rem;
+    height:5rem;
+    transform:translateY(-.77em);
+    
+}
+
+ul{
+    list-style-type:none;
+    display:block;
+    margin:0 auto;
+    font-size:4rem
+    
+}
+li{
+    margin:0 auto;
+    display:inline-block;
+    font-size:1.5rem;
+}
+a{
+    color:black;
+    text-decoration:none;
+    font-weight:600;
+    text-transform:uppercase;
+    
+}
+a:hover{
+    color:#7a1501;
+/*    background-color:#f9da0c;*/
+    transition:background 2s;
+    
+}
+#active_about a{
+    color:#7a1501;
+}
+#active > a{
+    
+    display:block;
+    height:4rem;
+    width:7.5rem;
+    padding:1%;
+    background-color:#f9da0c;
+    margin-left:53rem;
+    transform:translateY(4em);
+    line-height:4rem;
+    font-size:1.82rem;
+    color:#7a1501;
+ 
+}
+#aboutImage{
+    margin:0 auto;
+    width:30rem;
+    height:25rem;
+    float:left;
+    
+}
+
+h1{
+    margin:0 auto;
+    float:right;
+    font-size:3em;
+    width:33rem;
+    transform:translateY(-2rem);
+}
+
+main{
+    height:80rem;
+    width:100%;
+    padding:3em;
+    background-color:#7a1501;
+}
+
+section{
+    display:block;
+    text-align:center;
+    margin:0 auto;
+    width:100%;
+    height:80rem;
+    
+}
+#columnLeft{
+    margin:0 auto;
+    width:calc(85%/2);
+    float:left;
+    padding:6em;
+    text-align:left;
+    display:block;
+    font-size:1em;
+}
+#columnRight{
+    margin:0 auto;
+    text-align:left;
+    width:calc(85%/2);
+    height:auto;
+    padding:6em;
+    float:right;
+    font-size:1em;
+    display:block;
+}
+
+
+/*MAIN TEXT STARTS HERE*/
+
+
+h2{
+    color:red;
+    font-size:2rem;
+    font-weight:800;
+}
+p{
+    margin:0 auto;
+    display:block;
+    color:white;
+    font-size: 1.9rem
+}
+#p{
+    margin:0 auto;
+    display:block;
+    color:white;
+    font-size: 2rem
+}
+h3>#ask{
+    
+    font-size:4rem;
+}
+footer{
+    width:100%;
+    margin:0 auto;
+    height:3rem;
+    background-color:#f9da0c; 
+}
+em{
+    color:#7a1501;
+    font-size:2rem;
+    text-transform:uppercase
+}
+
+/*COMMENCE MEDIA */
+
+
+/*@media only screen*/
+/*    and (min-width:768px) and (max-width:830px){*/
+/*        {margin:0 8px;}*/
+/*        body{*/
+/*            width:calc(100%/.2);*/
+/*        }*/
+/*        }*/
+        
+        
+/*        }*/
+        
+/*        img{*/
+            
+/*            max-width:calc(100%/1.3px);*/
+/*            height:auto;*/
+/*            transform: translate(520px,20px);*/
+
+/*        }*/
+/*	    img{*/
+                
+/*        width:calc(97%/2);*/
+/*        height:auto; */
+/*        transform:translateY(calc 3rem);*/
+/*    }*/
+/*@media only screen and (max-width:551){*/
+/*    img{display:none;*/
+
+/*    }*/
+/*    float:left;*/
+/*    visibility: hidden;*/
+/*    opacity:40%;*/
+/*    nav{display:none;*/
+/*    visibility: hidden;}*/
+/*}*/
+        
+
+/*	    footer h1 bottom first one second two third three{*/
+                
+/*        width:calc(97%/2);*/
+/*        height:auto; */
+/*        transform:translateY(calc 3rem);*/
+/*    }*/
+/*	    footer h1 bottom first one second two third three{*/
+                
+/*        width:calc(97%/2);*/
+/*        height:auto; */
+/*        transform:translateY(calc 3rem);*/
+/*    }*/

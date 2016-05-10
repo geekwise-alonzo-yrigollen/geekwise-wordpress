@@ -22,35 +22,69 @@
         });
         </script>
         
-        <!--commence new code found on wordpress code-->
-        <script type="text/javascript" src="path/mootools-release-1.11.js"></script>
-<script type="text/javascript" src="path/rokbox.js"></script>
-<link href="path/style.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="path/rokbox-config.js"></script>
+    
 
 	</head>
-	<body <?php body_class(); ?>>
+	<body <?php body_class(); ?>
 
 		<!-- wrapper -->
 		<div class="wrapper">
 
-			<!-- header -->
-			<header class="header clear" role="banner">
-
-					<!-- logo -->
-					<div class="logo">
-						<a href="<?php echo home_url(); ?>">
-							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-							<img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img">
-						</a>
-					</div>
-					<!-- /logo -->
-
-					<!-- nav -->
-					<nav class="nav" role="navigation">
-						<?php html5blank_nav(); ?>
-					</nav>
-					<!-- /nav -->
-
-			</header>
-			<!-- /header -->
+	<header>
+      
+<!--      LABEL BEGINS HERE FOR THE FA BARS MENU OPTION-->
+      
+       <label class="fa fa-bars list" for="bars"></label>
+       
+       <input type="checkbox" id="bars">
+        
+<!--        LABEL BEGINS ENDS HERE FOR THE FA BARS MENU OPTION-->
+        
+<!--        NAV BAR LIST BEGINS HERE-->
+      <nav id="topbar">
+     
+       <ul id="under">
+          
+           <li>
+               <a href="about.html">about</a>
+           </li>
+           
+           <li>
+               <a href="courses.html">courses</a>
+           </li>
+           
+           <li>
+               <a href="workshops.html">workshops</a>
+           </li>
+           
+           <li>
+               <a href="cohort.html">cohort</a>
+           </li>
+           
+           <li class="active">
+               <a href="signup.html">signup</a>
+           </li>
+           
+           <li>
+               <a href="team.html">team</a>
+           </li>
+           
+           <li>
+               <a href="contact.html">contact</a>
+           </li>
+            
+       </ul>
+        
+       </nav>
+       
+<!--       NAV BAR ENDS HERE -->
+        
+        <span id="geekwise">
+        
+            <img src="http://i.imgur.com/p8H5Xv7.jpg" alt="#">
+        
+        </span>
+       
+   </header>
+   
+   <!--header ends here-->

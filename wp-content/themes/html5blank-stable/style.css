@@ -46,10 +46,20 @@ body{
 
 /*BELOW NAV HAS AN ID="topbar"*/
 
-header{
+.header{
     display:block;
     padding:0;
-    height:25.3rem;
+    height:1em;
+   
+}
+
+/*EXECUTE DEFAULT TAGS HERE*/
+.logo{
+	
+	display:none;
+}
+.nav{
+	display:none;
 }
 
 #topbar{
