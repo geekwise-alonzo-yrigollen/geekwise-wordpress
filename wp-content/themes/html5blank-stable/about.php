@@ -62,16 +62,5 @@
 
 <!--COMMENCE FOOTER ELEMENT-->
 
-<footer>
-   
-    <p>
-        <em>
-            want to geewise? sign up today!
-        </em>
-        
-    </p>
-    
-</footer>
 
-<!--FOOTER ELEMENT ***END***-->
 </body>

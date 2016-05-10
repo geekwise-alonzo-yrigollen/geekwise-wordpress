@@ -9,7 +9,7 @@
         <link href="<?php echo get_template_directory_uri(); ?>/img/icons/favicon.ico" rel="shortcut icon">
         <link href="<?php echo get_template_directory_uri(); ?>/img/icons/touch.png" rel="apple-touch-icon-precomposed">
         
-        <link href="<?php echo get_template_directory_uri(); ?>/courses.css" rel="stylesheet">
+        <link href="<?php echo get_template_directory_uri(); ?>/cohort.css" rel="stylesheet">
 
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,37 +28,31 @@
     
   </head>
   <body>
-  <!--      COMMENCE HEADER ELEMENT-->
       
-       <header id="header">
-       
+       <body>
+<!--      COMMENCE HEADER ELEMENT-->
+       <header>
+<!--       COMMENCE NAV BAR -->
         <nav>
-        
-<!--        COMMENCE LOGO ELEMENT -->
         
         <span class="logo">
             <a href="index.html">
                 <img id="imag" src="http://i.imgur.com/EXCIxXZ.png">
             </a>
         </span>
-        
-<!--        LOGO ELEMENT ***END***-->
-        
-        
-<!--            <span><i class="fa fa-bars"></i></span>-->
           
            <ul>
-               
+                
                <li>
                    <a href="about.html">About</a>
                </li>
-               <li class="active_page">
+               <li>
                    <a href="courses.html">Courses</a>
                </li>
                <li>
                    <a href="workshops.html">Workshops</a>
                </li>
-               <li>
+               <li id="cohort_active">
                    <a href="cohort.html">Cohort</a>
                </li>
                <li>
@@ -70,28 +64,27 @@
                <li class="active">
                    <a href="signup.html">Sign Up</a>
                </li>
-               
+                
            </ul>
              
         </nav>
         
-<!--            NAV ELEMENT ***END***-->
-            
-            
-             <span class="h1">
-                  <h1>
-                      NO FLUFF. WE TEACH SKILLS THAT YOU CAN USE TO MAKE MONEY.
-                  </h1>
-             </span>
-               
-<!--               <span><img id="upperRight" src="http://i.imgur.com/nPlBPJG.png"></span>-->
+<!--        NAV BAR ***END***-->
         
+        
+<!--        COMMENCE UPPER RIGHT LOGO-->
+        
+       <span id="img_logo">
+           <img src="http://i.imgur.com/nROlUCJ.png">
+       </span>
+       
+<!--       UPPER RIGHT LOGO ***END***-->
+       
        </header>
        
-       
 <!--       HEADER ELEMENT ***END***-->
-  
- 
-  
-  
-  
+      
+      
+      
+      
+      

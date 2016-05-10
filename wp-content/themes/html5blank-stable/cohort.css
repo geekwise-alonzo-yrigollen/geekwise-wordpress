@@ -1,0 +1,199 @@
+
+/* global box-sizing */
+*,
+*:after,
+*:before {
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+}
+/* html element 62.5% font-size for REM use */
+
+
+html, body{
+    margin:0 auto;
+    padding:0;
+    font-size:67.5%;
+}
+
+body{
+    box-sizing:border-box;
+    margin:0 auto;
+    width:100%;
+    background-color:white;
+    text-align:center;
+    font-family:sans-serif;
+}
+header{
+    margin:0 auto;
+    width:100%;
+    height:17.5rem;  
+    display:block;
+    background-color:white; 
+}
+#img_logo{
+    float:right;
+    width:28rem; 
+    transform:translateY(-8rem);
+    
+}
+.logo a img{
+    
+    margin:0 auto;
+    display:block;
+    float:left;
+    padding-left:35em;
+    transform:translateY(3em);
+}
+
+nav{
+    
+    display:block;
+    margin:0 auto;
+    display:block;
+    transform:translateX(-9em);
+    background-color:white;
+
+    
+}
+
+ul{
+    display:inline;
+    margin:0 auto;
+    width:80%;
+    font-size:4rem;
+}
+ ul li{
+
+    margin:0 auto;
+    height:5rem;
+    display:inline-block;
+    font-size:1.6rem;
+    font-weight:600;
+    transform:translateX(-6.7em);
+
+}
+ul>li>a{
+    color:black;
+    padding:.5rem;
+    line-height:4.3rem;
+    text-decoration:none;
+    text-transform:uppercase;
+ 
+}
+ul>li>a:hover{
+    color:#7a1501;
+    text-decoration: none;
+    
+}
+#cohort_active a{
+    color:#7a1501;
+}
+.active a{
+    color:#7a1501;
+    padding:1.5rem;
+    background-color:#f9da0c;
+}
+main{
+    display:block;
+    margin: 0% 15% 0% 15%;
+    height: auto;
+    text-align: center;
+    font-size: 1.7rem;
+}
+#first_article{
+    display:block;
+    text-align: left;
+}
+p{
+    display:block;
+    text-align: left;
+}
+ol{
+    display:inline;
+    margin:0 auto;
+    width:40;
+    line-height:1.5;
+    float:left;
+    height:23rem;;
+    text-align: left;
+}
+div ol{
+    display:block;
+    float:left;
+    width:100%;
+    height: auto;
+}
+ol li{
+    text-align:left;
+}
+
+
+/*COHORT PIC BEGINS HERE*/
+
+h2{
+    color:#fff;
+    
+}
+.panel-collapse{
+    width:100%;
+    height:auto;
+    
+}
+.panel-body{
+    width:calc(100%/4);
+    height:auto;
+    display:block;
+    float:left;
+    background-repeat:no-repeat;
+}
+
+/*COMMENCE BUTTON HERE*/
+
+.btn{
+    color:#000;
+    width:100%;
+    background-color:#f9da0c;
+    text-align:left;
+}
+#demo{
+    color:#000;
+    width:100%;
+    background-color:#fff;
+    text-align:left;
+    display:block;
+}
+
+.cohort_img{
+    width:calc(100%/4);
+    padding:1em;
+    display:inline-block;
+
+}
+.collapse img{
+    width:100%;
+    
+}
+h5{
+    color:#000;
+    width:26.5rem;
+    text-align:center;
+}
+.individual_text{
+    font-size:1.3rem;
+    color:#000;
+    padding:1rem;
+    width:26.5rem;
+    display:block;
+}
+#red{
+    display:inline-block;
+    margin:0 auto;
+    width:100%/4;
+}
+#two{
+    display:block;
+    float:left;
+}
