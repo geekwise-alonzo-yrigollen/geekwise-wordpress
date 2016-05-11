@@ -136,7 +136,7 @@ function html5blank_styles()
     wp_register_style('workshops', get_template_directory_uri() . '/contact.css', array(), '1.0', 'all');
     wp_enqueue_style('workshops'); // Enqueue it!
     
-    wp_register_style('workshops', get_template_directory_uri() . '/corhort.css', array(), '1.0', 'all');
+    wp_register_style('workshops', get_template_directory_uri() . '/cohort.css', array(), '1.0', 'all');
     wp_enqueue_style('workshops'); // Enqueue it!
     
     wp_register_style('workshops', get_template_directory_uri() . '/jake.css', array(), '1.0', 'all');
@@ -149,6 +149,9 @@ function html5blank_styles()
     wp_enqueue_style('workshops'); // Enqueue it!
     
     wp_register_style('workshops', get_template_directory_uri() . '/terry.css', array(), '1.0', 'all');
+    wp_enqueue_style('workshops'); // Enqueue it!
+    
+    wp_register_style('workshops', get_template_directory_uri() . '/signup.css', array(), '1.0', 'all');
     wp_enqueue_style('workshops'); // Enqueue it!
 }
 

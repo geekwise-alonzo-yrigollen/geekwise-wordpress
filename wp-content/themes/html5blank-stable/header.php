@@ -4,7 +4,7 @@
 <!--  HEADER BEGINS HERE-->
 
   
-   <body <?php body_class(); ?>  
+   <body>  
    
   <header>
 <!--      LABEL BEGINS HERE FOR THE FA BARS MENU OPTION-->
