@@ -138,7 +138,18 @@ function html5blank_styles()
     
     wp_register_style('workshops', get_template_directory_uri() . '/corhort.css', array(), '1.0', 'all');
     wp_enqueue_style('workshops'); // Enqueue it!
+    
+    wp_register_style('workshops', get_template_directory_uri() . '/jake.css', array(), '1.0', 'all');
+    wp_enqueue_style('workshops'); // Enqueue it!
+    
+    wp_register_style('workshops', get_template_directory_uri() . '/irma.css', array(), '1.0', 'all');
+    wp_enqueue_style('workshops'); // Enqueue it!
 
+    wp_register_style('workshops', get_template_directory_uri() . '/beth.css', array(), '1.0', 'all');
+    wp_enqueue_style('workshops'); // Enqueue it!
+    
+    wp_register_style('workshops', get_template_directory_uri() . '/terry.css', array(), '1.0', 'all');
+    wp_enqueue_style('workshops'); // Enqueue it!
 }
 
 // Register HTML5 Blank Navigation
