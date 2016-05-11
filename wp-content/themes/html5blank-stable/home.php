@@ -1,10 +1,6 @@
 <?php/*Template Name: Home */ ?>
 <?php get_header(); ?>
 
-
-   
-   <!--  ****FOOTER BEGINS ALTHOUGH I DID NOT CHOOSE TO USE A FOOTER ATTRIBUTE HERE IDENTIFIED WITH A BOTTOM CLASS****-->
-  
    <div class="bottom">
      
      
@@ -47,6 +43,7 @@
 
 
 
+</body>
 
 
 

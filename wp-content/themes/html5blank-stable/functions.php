@@ -126,6 +126,15 @@ function html5blank_styles()
     
     wp_register_style('courses', get_template_directory_uri() . '/courses.css', array(), '1.0', 'all');
     wp_enqueue_style('courses'); // Enqueue it!
+    
+    wp_register_style('workshops', get_template_directory_uri() . '/workshops.css', array(), '1.0', 'all');
+    wp_enqueue_style('workshops'); // Enqueue it!
+    
+    wp_register_style('workshops', get_template_directory_uri() . '/team.css', array(), '1.0', 'all');
+    wp_enqueue_style('workshops'); // Enqueue it!
+    
+    wp_register_style('workshops', get_template_directory_uri() . '/contact.css', array(), '1.0', 'all');
+    wp_enqueue_style('workshops'); // Enqueue it!
 }
 
 // Register HTML5 Blank Navigation

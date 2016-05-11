@@ -1,4 +1,4 @@
-<?php/*Template Name: about */ ?>
+<?php/*Template Name: courses */ ?>
 <?php get_header('courses'); ?>
 
 <!--      COMMENCE TOP SECTION -->

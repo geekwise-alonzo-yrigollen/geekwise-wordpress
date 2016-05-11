@@ -9,7 +9,7 @@
         <link href="<?php echo get_template_directory_uri(); ?>/img/icons/favicon.ico" rel="shortcut icon">
         <link href="<?php echo get_template_directory_uri(); ?>/img/icons/touch.png" rel="apple-touch-icon-precomposed">
         
-        <link href="<?php echo get_template_directory_uri(); ?>/about.css" rel="stylesheet">
+        <link href="<?php echo get_template_directory_uri(); ?>/team.css" rel="stylesheet">
 
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,30 +27,32 @@
         </script>
     
   </head>
+  
+  <!--   BODY BEGINS-->
    
-<body>
-<!--       COMMENCE HEADER TAG-->
-       
-       
-    <header>
+   <body>
+      
+<!--      HEADER BEGINS HERE-->
+      
+       <header id="header">
        
         <nav>
         
-<!--        COMMENCE LOGO-->
+<!--        LOGO SPAN TAG HERE-->
         
-          <span class="logo">
-              <a href="index.html">
-                  <img id="imag" src="http://i.imgur.com/EXCIxXZ.png">
-              </a>
-           </span>
-           
-<!--           LEFT LOGO ***END***-->
+        <span class="logo">
+            <a href="index.html">
+                <img id="imag" src="http://i.imgur.com/EXCIxXZ.png">
+            </a>
+        </span>
+        
+<!--        LOGO SPAN TAG ENDS HERE-->
+         
+<!--         COMMENCE NAV BAR ELEMENTS BELOW-->
           
-<!--          COMMENCE NAV BAR ELEMENTS-->
-           
            <ul>
-               
-               <li id="active_about" >
+              
+               <li>
                    <a href="about.html">About</a>
                </li>
                <li>
@@ -62,46 +64,47 @@
                <li>
                    <a href="cohort.html">Cohort</a>
                </li>
-<!--           <li class="active">
-                   <a href="signup.html">Sign Up</a>
-               </li>-->
-               <li>
+               <li id="active_team">
                    <a href="team.html">Team</a>
                </li>
                <li>
                    <a href="contact.html">Contact</a>
                </li>
+               <li class="active">
+                   <a href="signup.html">Sign Up</a>
+               </li>
                
            </ul>
+            
+<!--            END NAV BAR ELEMENTS-->
+            
+            
+<!--            UPPER RIGHT IMAGE BELOW ELEMENT-->
+            
+             <span>
+                 <img src="http://i.imgur.com/nROlUCJ.png">
+             </span>
+             
+<!--             UPPER RIGHT IMAGE ***END***-->
              
         </nav>
         
-<!--        NAV BAR ELEMENTS ***END***-->
-       
-<!--
-       <span>
-           <img id="logo" src="http://i.imgur.com/2bJ6w9W.png">
-       </span>
--->
-
-<!--            BELOW IS THE ACTIVE BUTTON-->
-
-               <span id="active">
-                   <a href="signup.html">Sign Up</a>
+<!--              COMMENCE MAIN CENTER TEXT ELEMENT-->
+              
+               <span>
+                   <h1>the team</h1>
                </span>
                
-<!--               ACTIVE BUTTON ***END***-->
-             
-<!--             COMMENCE MAIN TEXT-->
-              
-            <span> 
-                <h1>
-                    Learn a real world technology skill. Fast.
-                </h1>
-            </span>
-             
-<!--             MAIN TEXT ***END***-->
-              
-      </header>
-      
-<!--      HEADER ***ENDS***-->
+<!--               MAIN CENTER TEXT ***END***-->
+               
+    
+       </header>
+       
+<!--       ***HEADER ENDS***-->
+  
+  
+  
+  
+  
+  
+  
