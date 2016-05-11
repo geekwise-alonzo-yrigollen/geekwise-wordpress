@@ -9,7 +9,7 @@
         <link href="<?php echo get_template_directory_uri(); ?>/img/icons/favicon.ico" rel="shortcut icon">
         <link href="<?php echo get_template_directory_uri(); ?>/img/icons/touch.png" rel="apple-touch-icon-precomposed">
         
-        <link href="<?php echo get_template_directory_uri(); ?>/team.css" rel="stylesheet">
+        <link href="<?php echo get_template_directory_uri(); ?>/contact.css" rel="stylesheet">
 
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,31 +27,31 @@
         </script>
     
   </head>
-  
- <!--   BODY BEGINS-->
+
+
+
+
+
+<!--   COMMENCE HEADER HERE-->
    
-   <body>
+   <header>
       
-<!--      HEADER BEGINS HERE-->
+<!--      COMMENCE LOGO IMAGE-->
       
-       <header id="header">
-       
-        <nav>
-        
-<!--        LOGO SPAN TAG HERE-->
-        
-        <span class="logo">
+       <span class="logo">
             <a href="index.html">
                 <img id="imag" src="http://i.imgur.com/EXCIxXZ.png">
             </a>
-        </span>
+       </span>
+       
+<!--       LOGO IMAGE ***END***-->
+       
+<!--       COMMENCE NAV BAR ELEMENT-->
         
-<!--        LOGO SPAN TAG ENDS HERE-->
-         
-<!--         COMMENCE NAV BAR ELEMENTS BELOW-->
-          
+         <nav>
+       
            <ul>
-              
+               
                <li>
                    <a href="about.html">About</a>
                </li>
@@ -64,10 +64,10 @@
                <li>
                    <a href="cohort.html">Cohort</a>
                </li>
-               <li id="active_team">
+               <li>
                    <a href="team.html">Team</a>
                </li>
-               <li>
+               <li id="active_contact">
                    <a href="contact.html">Contact</a>
                </li>
                <li class="active">
@@ -75,27 +75,9 @@
                </li>
                
            </ul>
-            
-<!--            END NAV BAR ELEMENTS-->
-            
-            
-<!--            UPPER RIGHT IMAGE BELOW ELEMENT-->
-            
-             <span>
-                 <img src="http://i.imgur.com/nROlUCJ.png">
-             </span>
-             
-<!--             UPPER RIGHT IMAGE ***END***-->
              
         </nav>
-        
-<!--              COMMENCE MAIN CENTER TEXT ELEMENT-->
-              
-               <span>
-                   <h1>the team</h1>
-               </span>
-               
-<!--               MAIN CENTER TEXT ***END***-->
-               
-    
-       </header>
+       
+<!--       NAV BAR ELEMENT ***END***-->
+       
+   </header>
