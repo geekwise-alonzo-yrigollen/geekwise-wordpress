@@ -1,5 +1,8 @@
-<?php/*Template Name: signup */ ?>
+<?php/*Template Name: Signup */ ?>
 <?php get_header('signup'); ?>
+
+
+
 
 <!--THE BASIC STRUCTURE OF A TABLE-->
 
@@ -57,6 +60,3 @@
 -->
  
 <!-- MAIN SECTION ***END***-->
-
-
-

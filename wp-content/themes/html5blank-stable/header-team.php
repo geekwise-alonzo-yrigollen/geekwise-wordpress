@@ -38,7 +38,7 @@
       
        <header id="header">
        
-        <nav>
+        <!--<nav>-->
         
 <!--        LOGO SPAN TAG HERE-->
         
@@ -48,35 +48,41 @@
             </a>
         </span>
         
+         <nav class="nav" role="navigation">
+            	<?php html5blank_nav(); ?>
+         </nav>
+    
+        
+        
 <!--        LOGO SPAN TAG ENDS HERE-->
          
 <!--         COMMENCE NAV BAR ELEMENTS BELOW-->
           
-           <ul>
+           <!--<ul>-->
               
-               <li>
-                   <a href="about.html">About</a>
-               </li>
-               <li>
-                   <a href="courses.html">Courses</a>
-               </li>
-               <li>
-                   <a href="workshops.html">Workshops</a>
-               </li>
-               <li>
-                   <a href="cohort.html">Cohort</a>
-               </li>
-               <li id="active_team">
-                   <a href="team.html">Team</a>
-               </li>
-               <li>
-                   <a href="contact.html">Contact</a>
-               </li>
-               <li class="active">
-                   <a href="signup.html">Sign Up</a>
-               </li>
+           <!--    <li>-->
+           <!--        <a href="about.html">About</a>-->
+           <!--    </li>-->
+           <!--    <li>-->
+           <!--        <a href="courses.html">Courses</a>-->
+           <!--    </li>-->
+           <!--    <li>-->
+           <!--        <a href="workshops.html">Workshops</a>-->
+           <!--    </li>-->
+           <!--    <li>-->
+           <!--        <a href="cohort.html">Cohort</a>-->
+           <!--    </li>-->
+           <!--    <li id="active_team">-->
+           <!--        <a href="team.html">Team</a>-->
+           <!--    </li>-->
+           <!--    <li>-->
+           <!--        <a href="contact.html">Contact</a>-->
+           <!--    </li>-->
+           <!--    <li class="active">-->
+           <!--        <a href="signup.html">Sign Up</a>-->
+           <!--    </li>-->
                
-           </ul>
+           <!--</ul>-->
             
 <!--            END NAV BAR ELEMENTS-->
             
@@ -89,7 +95,7 @@
              
 <!--             UPPER RIGHT IMAGE ***END***-->
              
-        </nav>
+        <!--</nav>-->
         
 <!--              COMMENCE MAIN CENTER TEXT ELEMENT-->
               

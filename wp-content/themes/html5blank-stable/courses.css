@@ -65,12 +65,13 @@ header{
     transform:translateX(-8.5rem);
 }
 
-nav{
+.nav{
     
     height:5rem;
     display:block;
     margin:0 auto;
-    text-align:left;
+    padding:.5em;
+    text-align:center;
     transform:translateY(-1.3em)
 }
 
@@ -86,6 +87,7 @@ li{
     margin:0 auto;
     display:inline-block;
     font-size:1.5rem;
+    padding:1em;
     font-weight:600;
 }
 

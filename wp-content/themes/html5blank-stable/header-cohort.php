@@ -34,42 +34,48 @@
        <body>
 <!--      COMMENCE HEADER ELEMENT-->
        <header>
+           
+            <nav class="nav" role="navigation">
+            	<?php html5blank_nav(); ?>
+            </nav>
+    
+           
 <!--       COMMENCE NAV BAR -->
-        <nav>
+        <!--<nav>-->
         
-        <span class="logo">
-            <a href="index.html">
-                <img id="imag" src="http://i.imgur.com/EXCIxXZ.png">
-            </a>
-        </span>
+        <!--<span class="logo">-->
+        <!--    <a href="index.html">-->
+        <!--        <img id="imag" src="http://i.imgur.com/EXCIxXZ.png">-->
+        <!--    </a>-->
+        <!--</span>-->
           
-           <ul>
+        <!--   <ul>-->
                 
-               <li>
-                   <a href="about.html">About</a>
-               </li>
-               <li>
-                   <a href="courses.html">Courses</a>
-               </li>
-               <li>
-                   <a href="workshops.html">Workshops</a>
-               </li>
-               <li id="cohort_active">
-                   <a href="cohort.html">Cohort</a>
-               </li>
-               <li>
-                   <a href="team.html">Team</a>
-               </li>
-               <li>
-                   <a href="contact.html">Contact</a>
-               </li>
-               <li class="active">
-                   <a href="signup.html">Sign Up</a>
-               </li>
+        <!--       <li>-->
+        <!--           <a href="about.html">About</a>-->
+        <!--       </li>-->
+        <!--       <li>-->
+        <!--           <a href="courses.html">Courses</a>-->
+        <!--       </li>-->
+        <!--       <li>-->
+        <!--           <a href="workshops.html">Workshops</a>-->
+        <!--       </li>-->
+        <!--       <li id="cohort_active">-->
+        <!--           <a href="cohort.html">Cohort</a>-->
+        <!--       </li>-->
+        <!--       <li>-->
+        <!--           <a href="team.html">Team</a>-->
+        <!--       </li>-->
+        <!--       <li>-->
+        <!--           <a href="contact.html">Contact</a>-->
+        <!--       </li>-->
+        <!--       <li class="active">-->
+        <!--           <a href="signup.html">Sign Up</a>-->
+        <!--       </li>-->
                 
-           </ul>
+        <!--   </ul>-->
              
-        </nav>
+        <!--</nav>-->
         
 <!--        NAV BAR ***END***-->
         

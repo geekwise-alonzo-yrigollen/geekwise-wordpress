@@ -1,4 +1,3 @@
-/* global box-sizing */
 *,
 *:after,
 *:before {
@@ -8,14 +7,15 @@
 	font-smoothing:antialiased;
 	text-rendering:optimizeLegibility;
 }
-/* html element 62.5% font-size for REM use */
 html, body{
+    
     margin:0 auto;
     padding:0;
     font-size:67.5%;
 }
 
 body{
+    
     box-sizing:border-box;
     margin:0;
     width:100%;
@@ -23,68 +23,83 @@ body{
     background-color:#7a1501;
     text-align:center;
     font-family:sans-serif;
-
 }
+
 header{
     margin:0 auto;
     width:100%;
-    height:16rem;  
+    height:28rem;  
     display:block;
     background-color:white;
-    background-image:url("http://i.imgur.com/OpvA4Rr.jpg");
-    background-repeat:no-repeat;
-    
 }
-nav{
+
+#header{
+    background-image: url("http://i.imgur.com/nPlBPJG.png");
+    background-repeat:no-repeat;
+    background-position:top right;
     
-    height:4rem;
-    display:block;
-    margin:0 auto;
-    transform:translateX(3em);
-    font-size:12em;
 }
 
 .logo{
     
-    display:none;
-    /*margin:0 auto;*/
-    /*padding:1rem;*/
-    /*display:block;*/
-    /*float:left;*/
-
-}
-#imag{
-    width:13rem;
-    height:5rem;
-    transform:translateY(-.77em);
+    display:block;
+    margin:1%;
+    margin-left:2rem;
+    padding-left:10rem;
+    width:5rem;
+    height:2rem;
+    float:left;
     
+}
+
+nav{
+    
+    
+    display:block;
+    margin:0 auto;
+
 }
 
 ul{
     list-style-type:none;
     display:block;
     margin:0 auto;
-    font-size:4rem
+    height:3.3rem;
+    background-color:white;
     
 }
 li{
     margin:0 auto;
     display:inline-block;
-    font-size:1.5rem;
+    font-size:1.55rem;
+    
 }
 a{
     color:black;
-    text-decoration:none;
+    padding:1em;
     font-weight:600;
+    line-height:4.4rem;
+    text-decoration:none;
     text-transform:uppercase;
     
 }
 a:hover{
+    
     color:#7a1501;
 /*    background-color:#f9da0c;*/
     transition:background 2s;
     
 }
+/*.active_team a{*/
+/*    color:#7a1501;*/
+/*}*/
+/*.active a{*/
+    
+/*    color:#7a1501;*/
+/*    height:4rem;*/
+/*    background-color:#f9da0c;*/
+    
+/*}*/
 #active_about a{
     color:#7a1501;
 }

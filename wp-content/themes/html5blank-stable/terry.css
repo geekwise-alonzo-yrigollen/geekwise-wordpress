@@ -53,12 +53,28 @@ header{
     
 }
 
-nav{
+
+.nav{
     
     height:4rem;
     display:block;
     margin:0 auto;
     transform:translateY(-2.4em);
+    
+}
+
+.menu{
+    
+    height:4rem;
+    display:block;
+    margin:0 auto;
+    
+}
+
+.page_item{
+    
+    padding:.5rem;
+    display:inline-block;
     
 }
 
@@ -128,7 +144,7 @@ main{
     color:#fff;
     margin-left:11em;
     width:43rem;
-    text-align:center;
+    text-align:center; 
     display:inline;
     text-align:left;
     float:left;

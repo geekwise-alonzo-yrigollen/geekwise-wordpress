@@ -17,7 +17,7 @@
 
 		
 		<!--COMMENTED OUT THIS PHP SNIPPET AS IT WAS INTERFERRING WITH MULTIPLE PAGES-->
-		<!--<?php wp_head(); ?>-->
+	
 		<script>
         // conditionizr.com
         // configure environment tests
@@ -36,7 +36,7 @@
        
     <header>
        
-        <nav>
+        <!--<nav>-->
         
 <!--        COMMENCE LOGO-->
         
@@ -45,42 +45,42 @@
                   <img id="imag" src="http://i.imgur.com/EXCIxXZ.png">
               </a>
            </span>
-           
+            <nav class="nav" role="navigation">
+            	<?php html5blank_nav(); ?>
+            </nav>
+    
 <!--           LEFT LOGO ***END***-->
           
 <!--          COMMENCE NAV BAR ELEMENTS-->
 
            
-           <ul>
-               <li id="active_about" >
+           <!--<ul>-->
+           <!--    <li id="active_about" >-->
                 
-                 <a href="<?php bloginfo('https://geekwise-wordpress-geekwisealonzoyrigollen-1.c9users.io/about/'); ?>/about.php">About</a>
-
-                   <!--<a href="about.html">About</a>-->
-               </li>
-               <li>
-                   <a href="<?php bloginfo('https://geekwise-wordpress-geekwisealonzoyrigollen-1.c9users.io/courses/'); ?>/courses.php">Courses</a>
-                   <!--<a href="courses.html">Courses</a>-->
-               </li>
-               <li>
-                   <a href="workshops.html">Workshops</a>
-               </li>
-               <li>
-                   <a href="cohort.html">Cohort</a>
-               </li>
-<!--           <li class="active">
-                   <a href="signup.html">Sign Up</a>
-               </li>-->
-               <li>
-                   <a href="team.html">Team</a>
-               </li>
-               <li>
-                   <a href="contact.html">Contact</a>
-               </li>
+           <!--        <a href="about.html">About</a>-->
+           <!--    </li>-->
+           <!--    <li>-->
+           <!--        <a href="courses.html">Courses</a>-->
+           <!--    </li>-->
+           <!--    <li>-->
+           <!--        <a href="workshops.html">Workshops</a>-->
+           <!--    </li>-->
+           <!--    <li>-->
+           <!--        <a href="cohort.html">Cohort</a>-->
+           <!--    </li>-->
+           <!--    <li class="active">-->
+           <!--        <a href="signup.html">Sign Up</a>-->
+           <!--    </li>-->
+           <!--    <li>-->
+           <!--        <a href="team.html">Team</a>-->
+           <!--    </li>-->
+           <!--    <li>-->
+           <!--        <a href="contact.html">Contact</a>-->
+           <!--    </li>-->
                
-           </ul>
+           <!--</ul>-->
              
-        </nav>
+        <!--</nav>-->
         
 <!--        NAV BAR ELEMENTS ***END***-->
        

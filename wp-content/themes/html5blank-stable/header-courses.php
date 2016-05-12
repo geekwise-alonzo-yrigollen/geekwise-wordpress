@@ -34,7 +34,12 @@
       
        <header id="header">
        
-        <nav>
+        <!--<nav>-->
+        
+         <nav class="nav" role="navigation">
+            	<?php html5blank_nav(); ?>
+            </nav>
+    
         
 <!--        COMMENCE LOGO ELEMENT -->
         
@@ -49,33 +54,33 @@
         
 <!--            <span><i class="fa fa-bars"></i></span>-->
           
-           <ul>
+           <!--<ul>-->
                
-               <li>
-                   <a href="about.html">About</a>
-               </li>
-               <li class="active_page">
-                   <a href="courses.html">Courses</a>
-               </li>
-               <li>
-                   <a href="workshops.html">Workshops</a>
-               </li>
-               <li>
-                   <a href="cohort.html">Cohort</a>
-               </li>
-               <li>
-                   <a href="team.html">Team</a>
-               </li>
-               <li>
-                   <a href="contact.html">Contact</a>
-               </li>
-               <li class="active">
-                   <a href="signup.html">Sign Up</a>
-               </li>
+           <!--    <li>-->
+           <!--        <a href="about.html">About</a>-->
+           <!--    </li>-->
+           <!--    <li class="active_page">-->
+           <!--        <a href="courses.html">Courses</a>-->
+           <!--    </li>-->
+           <!--    <li>-->
+           <!--        <a href="workshops.html">Workshops</a>-->
+           <!--    </li>-->
+           <!--    <li>-->
+           <!--        <a href="cohort.html">Cohort</a>-->
+           <!--    </li>-->
+           <!--    <li>-->
+           <!--        <a href="team.html">Team</a>-->
+           <!--    </li>-->
+           <!--    <li>-->
+           <!--        <a href="contact.html">Contact</a>-->
+           <!--    </li>-->
+           <!--    <li class="active">-->
+           <!--        <a href="signup.html">Sign Up</a>-->
+           <!--    </li>-->
                
-           </ul>
+           <!--</ul>-->
              
-        </nav>
+        <!--</nav>-->
         
 <!--            NAV ELEMENT ***END***-->
             

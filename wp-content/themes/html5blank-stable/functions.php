@@ -145,7 +145,7 @@ function html5blank_styles()
     wp_register_style('workshops', get_template_directory_uri() . '/irma.css', array(), '1.0', 'all');
     wp_enqueue_style('workshops'); // Enqueue it!
 
-    wp_register_style('workshops', get_template_directory_uri() . '/beth.css', array(), '1.0', 'all');
+    wp_register_style('workshops', get_template_directory_uri() . '/beth.c ss', array(), '1.0', 'all');
     wp_enqueue_style('workshops'); // Enqueue it!
     
     wp_register_style('workshops', get_template_directory_uri() . '/terry.css', array(), '1.0', 'all');
