@@ -172,3 +172,53 @@ span>img{
     display:block;
     
 }
+
+/*COMMENCE MEDIA*/
+
+@media only screen and (max-width:1021px){
+    
+    {
+        margin-left:300px;
+    }
+}
+@media only screen and (max-width:900px){
+    .fa{
+        visibility: visible;
+        color: gray;
+    }
+   
+    li{
+        text-align:left;
+        width: 100px;
+        color: black;
+    }
+    nav{
+        
+        visibility:visible;
+    }
+
+    
+}
+@media only screen and (max-width:600px){
+    .lines{
+        margin-left:170px;
+    }
+}
+@media only screen and (max-width:480px){
+    img{
+        width:100%;
+        height: auto;
+    }
+    
+    .icons{
+        margin-left: 70px;
+        width: 10%;
+        height: auto;
+        
+    }
+    li{
+      visibility:hidden;
+      text-align: right;
+    
+    }
+}

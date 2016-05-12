@@ -17,7 +17,7 @@
 
 <!--COMMENTED OUT THIS PHP SNIPPET AS IT WAS INTERFERRING WITH MULTIPLE PAGES-->
 
-		<!--<?php wp_head(); ?>-->
+	
 		<script>
         // conditionizr.com
         // configure environment tests
