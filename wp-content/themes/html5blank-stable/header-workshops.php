@@ -15,7 +15,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="<?php bloginfo('description'); ?>">
 
-		<?php wp_head(); ?>
+	
+	<!--COMMENTED OUT THIS PHP SNIPPET AS IT WAS INTERFERRING WITH MULTIPLE PAGES-->
+	
 		<script>
         // conditionizr.com
         // configure environment tests
@@ -42,31 +44,34 @@
            <label class="fa fa-bars list" for="bars"></label>
            
 <!--          <input type="checkbox" id="bars">-->
+<nav class="nav" role="navigation">
+	<?php html5blank_nav(); ?>
+</nav>
     
-          <div class="parent">
-              <div class="item">
-                  <a href="about.html">About</a>
-              </div>
-              <div class="item">
-                  <a href="courses.html">courses</a>
-              </div>
-              <div class=" item active_page">
-                  <a href="workshops.html">workshops</a>
-              </div>
-              <div class="item">
-                  <a href="cohort.html">cohort</a>
-              </div>
-              <div class="item">
-                  <a href="team.html">team</a>
-              </div>
-              <div class="item">
-                  <a href="contact.html">contact</a>
-              </div>
+          <!--<div class="parent">-->
+          <!--    <div class="item">-->
+          <!--        <a href="about.html">About</a>-->
+          <!--    </div>-->
+          <!--    <div class="item">-->
+          <!--        <a href="courses.html">courses</a>-->
+          <!--    </div>-->
+          <!--    <div class=" item active_page">-->
+          <!--        <a href="workshops.html">workshops</a>-->
+          <!--    </div>-->
+          <!--    <div class="item">-->
+          <!--        <a href="cohort.html">cohort</a>-->
+          <!--    </div>-->
+          <!--    <div class="item">-->
+          <!--        <a href="team.html">team</a>-->
+          <!--    </div>-->
+          <!--    <div class="item">-->
+          <!--        <a href="contact.html">contact</a>-->
+          <!--    </div>-->
        
-              <div class="item sign">
-                  <a href="signup.html">sign up</a>
-              </div>
-          </div>  
+          <!--    <div class="item sign">-->
+          <!--        <a href="signup.html">sign up</a>-->
+          <!--    </div>-->
+          <!--</div>  -->
 
          
 <!--         COMMENCE TEXT SECTION-->

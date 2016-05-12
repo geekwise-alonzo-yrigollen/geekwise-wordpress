@@ -15,7 +15,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="<?php bloginfo('description'); ?>">
 
-		<?php wp_head(); ?>
+
+<!--COMMENTED OUT THIS PHP SNIPPET AS IT WAS INTERFERRING WITH MULTIPLE PAGES-->
+		<!--<?php wp_head(); ?>-->
 		<script>
         // conditionizr.com
         // configure environment tests
@@ -30,39 +32,44 @@
   
    <body>
        <header id="header">
-        <nav>
+           
+           <nav class="nav" role="navigation">
+            	<?php html5blank_nav(); ?>
+            </nav>
+    
+        <!--<nav>-->
         
-        <span class="logo">
-            <a href="https://geekwiseacademy.com/">
-                <img id="imag" src="http://i.imgur.com/EXCIxXZ.png">
-            </a>
-        </span>
+        <!--<span class="logo">-->
+        <!--    <a href="https://geekwiseacademy.com/">-->
+        <!--        <img id="imag" src="http://i.imgur.com/EXCIxXZ.png">-->
+        <!--    </a>-->
+        <!--</span>-->
        
-           <ul>
-               <li>
-                   <a href="about.html">About</a>
-               </li>
-               <li>
-                   <a href="courses.html">Courses</a>
-               </li>
-               <li>
-                   <a href="workshops.html">Workshops</a>
-               </li>
-               <li>
-                   <a href="cohort.html">Cohort</a>
-               </li>
-               <li class="active_team">
-                   <a href="team.html">Team</a>
-               </li>
-               <li>
-                   <a href="contact.html">Contact</a>
-               </li>
-               <li class="active">
-                   <a href="signup.html">Sign Up</a>
-               </li> 
-           </ul>
+        <!--   <ul>-->
+        <!--       <li>-->
+        <!--           <a href="about.html">About</a>-->
+        <!--       </li>-->
+        <!--       <li>-->
+        <!--           <a href="courses.html">Courses</a>-->
+        <!--       </li>-->
+        <!--       <li>-->
+        <!--           <a href="workshops.html">Workshops</a>-->
+        <!--       </li>-->
+        <!--       <li>-->
+        <!--           <a href="cohort.html">Cohort</a>-->
+        <!--       </li>-->
+        <!--       <li class="active_team">-->
+        <!--           <a href="team.html">Team</a>-->
+        <!--       </li>-->
+        <!--       <li>-->
+        <!--           <a href="contact.html">Contact</a>-->
+        <!--       </li>-->
+        <!--       <li class="active">-->
+        <!--           <a href="signup.html">Sign Up</a>-->
+        <!--       </li> -->
+        <!--   </ul>-->
              
-        </nav>
+        <!--</nav>-->
         
                <span>
                    <h1>

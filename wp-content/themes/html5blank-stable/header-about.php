@@ -15,7 +15,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="<?php bloginfo('description'); ?>">
 
-		<?php wp_head(); ?>
+		
+		<!--COMMENTED OUT THIS PHP SNIPPET AS IT WAS INTERFERRING WITH MULTIPLE PAGES-->
+		<!--<?php wp_head(); ?>-->
 		<script>
         // conditionizr.com
         // configure environment tests
@@ -47,14 +49,18 @@
 <!--           LEFT LOGO ***END***-->
           
 <!--          COMMENCE NAV BAR ELEMENTS-->
+
            
            <ul>
-               
                <li id="active_about" >
-                   <a href="about.html">About</a>
+                
+                 <a href="<?php bloginfo('https://geekwise-wordpress-geekwisealonzoyrigollen-1.c9users.io/about/'); ?>/about.php">About</a>
+
+                   <!--<a href="about.html">About</a>-->
                </li>
                <li>
-                   <a href="courses.html">Courses</a>
+                   <a href="<?php bloginfo('https://geekwise-wordpress-geekwisealonzoyrigollen-1.c9users.io/courses/'); ?>/courses.php">Courses</a>
+                   <!--<a href="courses.html">Courses</a>-->
                </li>
                <li>
                    <a href="workshops.html">Workshops</a>

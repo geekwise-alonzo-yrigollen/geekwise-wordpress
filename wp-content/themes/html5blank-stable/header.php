@@ -16,41 +16,46 @@
 <!--        LABEL BEGINS ENDS HERE FOR THE FA BARS MENU OPTION-->
         
 <!--        NAV BAR LIST BEGINS HERE-->
-      <nav id="topbar">
+
+<nav class="nav" role="navigation">
+	<?php html5blank_nav(); ?>
+</nav>
+
+      <!--<nav id="topbar">-->
      
-       <ul id="under">
+      <!-- <ul id="under">-->
           
-           <li>
-               <a href="about.html">about</a>
-           </li>
+      <!--     <li>-->
+      <!--         <a href="about.html">about</a>-->
+      <!--     </li>-->
            
-           <li>
-               <a href="courses.html">courses</a>
-           </li>
+      <!--     <li>-->
+      <!--         <a href="courses.html">courses</a>-->
+      <!--     </li>-->
            
-           <li>
-               <a href="workshops.html">workshops</a>
-           </li>
+      <!--     <li>-->
+      <!--         <a href="workshops.html">workshops</a>-->
+      <!--     </li>-->
            
-           <li>
-               <a href="cohort.html">cohort</a>
-           </li>
+      <!--     <li>-->
+      <!--         <a href="cohort.html">cohort</a>-->
+      <!--     </li>-->
            
-           <li class="active">
-               <a href="signup.html">signup</a>
-           </li>
+      <!--     <li class="active">-->
+      <!--         <a href="signup.html">signup</a>-->
+      <!--     </li>-->
            
-           <li>
-               <a href="team.html">team</a>
-           </li>
+      <!--     <li>-->
+      <!--         <a href="team.html">team</a>-->
+      <!--     </li>-->
            
-           <li>
-               <a href="contact.html">contact</a>
-           </li>
+      <!--     <li>-->
+      <!--         <a href="contact.html">contact</a>-->
+      <!--     </li>-->
             
-       </ul>
+      <!-- </ul>-->
         
-       </nav>
+      <!-- </nav>-->
        
 <!--       NAV BAR ENDS HERE -->
         
