@@ -14,7 +14,7 @@ html, body{
     font-size:67.5%;
 }
 #imag{
-    
+    transform:translateY(-8em);
     float:left;
 }
 

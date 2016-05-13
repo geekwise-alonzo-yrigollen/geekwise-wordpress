@@ -36,7 +36,7 @@ header{
 .logo{
     float:left;
     margin:0 auto;
-    padding:3em;
+    padding:1em;
     width:19rem;
     transform:translateX(5rem);
 }
