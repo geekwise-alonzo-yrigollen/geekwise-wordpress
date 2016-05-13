@@ -36,10 +36,11 @@ body{
 
 }
 
-header{
+#header{
     margin:0 auto;
     width:100%;
-    height:15rem;  
+    height:15rem; 
+    float:left;
     display:block;
     background-color:#7a1501;
  
@@ -53,7 +54,7 @@ header{
     width:15rem;
     height:5rem;
     float:left;
-    transform:translateY(1.3em);
+    transform:translateY(-7.3em);
     
     
 }
@@ -72,7 +73,9 @@ header{
     margin:0 auto;
     padding:.5em;
     text-align:center;
-    transform:translateY(-1.3em)
+    line-height:3em;
+    transform:translateX(13em);
+    /*transform:translateY(-1.3em)*/
 }
 
 ul{
@@ -113,13 +116,11 @@ a:hover{
     color:#f9da0c;
 }
 
-h1{
+.h1{
     color:white;
     margin:0 auto;
-    text-align:left;
     float:left;
-    padding-left:18rem;
-    width:70%;
+    width:40%;
     transform:translateY(6rem);
 }
 
