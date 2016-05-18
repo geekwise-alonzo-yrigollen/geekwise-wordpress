@@ -9,13 +9,10 @@
         <a href="Click here to checkout our STEM Summer Programs!">Button</a>
     </span>
     
-    
-   
             <?php while (have_posts()) : the_post(); ?>
             <?php the_content(); ?>
             <?php endwhile; ?>
 
-   
     <table>
         <tr>
           <th id="topic" >Topic</th>

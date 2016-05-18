@@ -13,7 +13,7 @@
     <?php endif; ?>
 
      
-<!--     BELOW IS THE MAIN TEXT BELOW THE CENTER IMAGE-->
+     BELOW IS THE MAIN TEXT BELOW THE CENTER IMAGE
       
        <!--<h2>-->
        <!--    fast. no fluff.-->
@@ -23,11 +23,11 @@
        <!--    we teach technology skills that you can use to make money<hr>   -->
        <!--</h3>-->
        
-<!--       MAIN TEXT ENDS HERE THAT IS BELOW THE IMAGE-->
+       <!--MAIN TEXT ENDS HERE THAT IS BELOW THE IMAGE-->
        
        <!--<div class="lower">-->
        
-<!--       ICONS BEGINS HERE FOR THE LEARN MORE, SIGNUP AND WHY GEEKWISE-->
+       <!--ICONS BEGINS HERE FOR THE LEARN MORE, SIGNUP AND WHY GEEKWISE-->
        
        <!--<span class="icons">-->
        <!--    <img src="http://i.imgur.com/qgz2qoN.png" alt="Learn More"><br>learn more-->
@@ -41,7 +41,7 @@
        <!--    <img src="http://i.imgur.com/aUv0YKB.png" alt="Why Geekwise?"><br>why geekwise-->
        <!--</span>-->
        
-<!--       ICONS END HERE -->
+       ICONS END HERE 
        
         </div>
         

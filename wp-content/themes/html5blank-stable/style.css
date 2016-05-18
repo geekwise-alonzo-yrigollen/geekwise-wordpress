@@ -135,16 +135,16 @@ h3{
     background-color:#7A1501; 
 }
 
-.icons{
-    position:relative;
-    top:50px;
-    display:block;
-    color:white;
-    float:left;
-    text-transform:uppercase;
-    text-align:center;
-    width:calc(100%/3);
-}
+/*.icons{*/
+/*    position:relative;*/
+/*    top:50px;*/
+/*    display:block;*/
+/*    color:white;*/
+/*    float:left;*/
+/*    text-transform:uppercase;*/
+/*    text-align:center;*/
+/*    width:calc(100%/3);*/
+/*}*/
 
 .center{
     width:23rem;
