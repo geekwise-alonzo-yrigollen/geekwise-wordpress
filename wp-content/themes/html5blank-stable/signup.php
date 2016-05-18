@@ -8,7 +8,7 @@
     <?php endwhile; ?>
     <?php endif; ?>
 
-<!--THE BASIC STRUCTURE OF A TABLE-->
+THE BASIC STRUCTURE OF A TABLE
 
    <!--<table id="table">-->
    <!--    <tbody>-->
@@ -52,7 +52,7 @@
    <!--    </tbody>-->
    <!--</table>-->
    
-<!--TABLE STRUCTURE ***END***-->
+TABLE STRUCTURE ***END***
 
 
 <!--MAIN SECTION IS HERE IF I NEED-->
