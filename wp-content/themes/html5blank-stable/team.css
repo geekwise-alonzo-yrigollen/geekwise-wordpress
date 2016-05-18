@@ -33,6 +33,14 @@ header{
     background-color:white;
  
 }
+h3{
+    margin:0 auto;
+    display:block;
+    font-size:3em;
+    color:#fff;
+    
+}
+
 .logo{
     float:left;
     margin:0 auto;

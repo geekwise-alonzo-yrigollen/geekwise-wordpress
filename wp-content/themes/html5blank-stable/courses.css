@@ -126,30 +126,54 @@ a:hover{
 
 /*paragraph starts here before the table*/
 
-
-#geekwise{
-    width:88%;
+#on_click{
+    
+    width:50%;
     margin:0 auto;
     display:block;
     text-align:center;
+    
+    
+    
+}
+#geekwise{
+    width:92%;
+    margin:0 auto;
+    display:block;
+    text-align:center;
+    font-weight:400;
     line-height:1.4em;
-    font-size:1.3rem;
+    font-size:1.8em;
     text-align:left;
-    transform:translateY(-4.5em);
+    transform:translateY(4.5em);
     
 }
 #align_left{
-    width:75%;
+    width:100%;
     margin:0 auto;
-    display:block;
+    display:flex;
+    justify-content:space-between;
+    padding:3em;
     text-align:center;
     line-height:1.4em;
-    font-size:1.3rem;
+    font-size:1.8rem;
     text-align:left;
-    float:left;
-    transform:translateX(6.4em);
+    transform:translateX(3.4em);
     
 }
+/*main p{*/
+    
+/*    width:50%;*/
+/*    margin:0 auto;*/
+/*    background-color:yellow;*/
+/*    font-size:3em;*/
+/*}*/
+
+.btn{
+    width:3em;
+    background-color:yellow;
+}
+
 #topic{
     padding-left:1.4em;
 }
@@ -168,8 +192,9 @@ span p{
 
 /*old css*/
 
-table{
+.table{
     font-size:1.3rem;
+    width:80%;
     transform:translateY(-23rem)
 }
 .fa{

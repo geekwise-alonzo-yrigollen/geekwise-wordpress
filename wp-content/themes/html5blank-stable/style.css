@@ -92,6 +92,16 @@ a:hover{
     
 }
 
+.divider{
+    color:#fff;
+    width: calc(100% / 3);
+    
+    
+    
+}
+.vertical-divider{
+    color:#fff;
+}
 h2{
     position:relative;
     top:30px;
