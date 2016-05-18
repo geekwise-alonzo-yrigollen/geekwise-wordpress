@@ -34,11 +34,11 @@
 <body>
      
       <header>
-          <span class="logo">
-            <a href="index.html">
-                <img id="imag" src="http://i.imgur.com/EXCIxXZ.png">
-            </a>
-        </span>
+            <span class="logo">
+              <a href="/index.php?page_id=29">
+                  <img id="imag" src="http://i.imgur.com/EXCIxXZ.png">
+              </a>
+            </span>
            <label class="fa fa-bars list" for="bars"></label>
            
 <!--          <input type="checkbox" id="bars">-->

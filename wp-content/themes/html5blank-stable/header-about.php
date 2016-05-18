@@ -41,12 +41,13 @@
 <!--        COMMENCE LOGO-->
         
           <span class="logo">
-              <a href="index.html">
+              <a href="/index.php?page_id=29">
                   <img id="imag" src="http://i.imgur.com/EXCIxXZ.png">
               </a>
            </span>
             <nav class="nav" role="navigation">
             	<?php html5blank_nav(); ?>
+            	 <a href="/index.php?page_id=4">
             </nav>
     
 <!--           LEFT LOGO ***END***-->
@@ -57,7 +58,7 @@
            <!--<ul>-->
            <!--    <li id="active_about" >-->
                 
-           <!--        <a href="about.html">About</a>-->
+           
            <!--    </li>-->
            <!--    <li>-->
            <!--        <a href="courses.html">Courses</a>-->

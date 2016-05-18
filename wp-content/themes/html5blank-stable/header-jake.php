@@ -27,9 +27,28 @@
             tests: {}
         });
         </script>
-         <nav class="nav" role="navigation">
-            	<?php html5blank_nav(); ?>
-            </nav>
+        
     
     
   </head>
+  
+  <header>
+   
+            <nav class="nav" role="navigation">
+            	<?php html5blank_nav(); ?>
+            </nav>
+   
+   <span class="logo">
+              <a href="/index.php?page_id=29">
+                  <img id="imag" src="http://i.imgur.com/EXCIxXZ.png">
+              </a>
+           </span>
+  </header>
+  
+  
+  
+  
+  
+  
+  
+  

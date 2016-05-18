@@ -42,14 +42,19 @@
         
 <!--        LOGO SPAN TAG HERE-->
         
-        <span class="logo">
-            <a href="index.html">
-                <img id="imag" src="http://i.imgur.com/EXCIxXZ.png">
-            </a>
-        </span>
+        
         
          <nav class="nav" role="navigation">
+             
             	<?php html5blank_nav(); ?>
+            	
+            <span class="logo">
+              <a href="/index.php?page_id=29">
+                  <img id="imag" src="http://i.imgur.com/EXCIxXZ.png">
+              </a>
+            </span>
+            
+            	
          </nav>
     
         

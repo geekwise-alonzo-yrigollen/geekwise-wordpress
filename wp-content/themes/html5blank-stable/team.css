@@ -41,24 +41,28 @@ h3{
     
 }
 
-.logo{
-    float:left;
-    margin:0 auto;
-    padding:1em;
-    width:19rem;
-    transform:translateX(5rem);
-}
+
+
 span>img{
-    float:right;
-    transform:translateY(-30%);
     
+    float:right;
+    transform:translateY(-7.53em);
+   
+    
+}
+
+.nav{
+    
+    margin:0 auto;
+    width:80%;
+    text-align:right;
 }
 
 ul{
     
     width:70%;
     display:block;
-    transform:translateX(2%);
+    transform:translateX(16.5%);
 
 }
 
@@ -95,15 +99,18 @@ a:hover{
     background-color:#f9da0c;
     
 }
+
 #active_team a{
     color:#7a1501;
 }
+
 h1{
     text-transform:uppercase;
     font-size:3.6rem;
     transform:translateY(5rem);
     
 }
+
 main{
     color:white;
     font-size:2.2rem;
@@ -112,13 +119,24 @@ main{
     margin:0 auto;
     
 }
+
 .pics{
     width:100%;
     display:block;
 
 }
+
 .pics>.aplus>a{
     display:inline-block;
     margin:0 auto;
     width:calc(88%/4);
+}
+
+#imag{
+    
+   margin:0 auto;
+   float:left;
+   padding-left:13em;
+   transform:translateY(-9em);
+   
 }
