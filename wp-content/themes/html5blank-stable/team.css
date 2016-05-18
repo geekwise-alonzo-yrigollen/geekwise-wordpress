@@ -57,6 +57,13 @@ span>img{
     width:80%;
     text-align:right;
 }
+.team-member-icon{
+    
+    margin:0 auto;
+    display:block;
+    width:calc(100%/4);
+    
+}
 
 ul{
     

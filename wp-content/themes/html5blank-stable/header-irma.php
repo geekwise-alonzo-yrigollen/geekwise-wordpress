@@ -35,7 +35,7 @@
 <!--            COMMENCE HEADER HERE-->
                       
        <header id="header">
-        <nav>
+        
         
 <!--        COMMENCE LOGO-->
         
@@ -48,43 +48,17 @@
 <!--          LOGO ***END***-->
           
 <!--          NAV UNORDERED LIST BEGINS HERE-->
-             <nav class="nav" role="navigation">
+              <nav class="nav" role="navigation">
             	<?php html5blank_nav(); ?>
+            	 <a href="/index.php?page_id=4"></a>
+            	 <a href="/courses.php?page_id=6"></a>
+            	 <a href="/workshops.php?page_id=8"></a>
+            	 <a href="/cohort.php.php?page_id=10"></a>
+            	 <a href="/signup.php.php?page_id=12"></a
+            	 <a href="/team.php?page_id=14"></a>
+            	 <a href="/contact.php?page_id=16"></a>
             </nav>
     
-           <!--<ul>-->
-            
-           <!--    <li>-->
-           <!--        <a href="about.html">About</a>-->
-           <!--    </li>-->
-           <!--    <li>-->
-           <!--        <a href="courses.html">Courses</a>-->
-           <!--    </li>-->
-           <!--    <li>-->
-           <!--        <a href="workshops.html">Workshops</a>-->
-           <!--    </li>-->
-           <!--    <li>-->
-           <!--        <a href="cohort.html">Cohort</a>-->
-           <!--    </li>-->
-           <!--    <li class="active_team">-->
-           <!--        <a href="team.html">Team</a>-->
-           <!--    </li>-->
-           <!--    <li>-->
-           <!--        <a href="contact.html">Contact</a>-->
-           <!--    </li>-->
-           <!--    <li class="active">-->
-           <!--        <a href="signup.html">Sign Up</a>-->
-           <!--    </li>-->
-               
-           <!--</ul>-->
-             
-<!--             UNORDER LIST ***END***-->
-             
-        <!--</nav>-->
-        
-<!--             NAV END HERE-->
-              
-              
                <span>
                    <h1>
                        the team
