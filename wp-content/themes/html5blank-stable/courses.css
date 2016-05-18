@@ -46,6 +46,13 @@ body{
  
 }
 
+#paragraph{
+    
+    font-size:16px;
+    width:70%;
+    
+}
+
 .logo{
     
     display:block;
@@ -163,9 +170,9 @@ a:hover{
 }
 /*main p{*/
     
-/*    width:50%;*/
+/*    width:70%;*/
 /*    margin:0 auto;*/
-/*    background-color:yellow;*/
+/*    background-color:#fff;*/
 /*    font-size:3em;*/
 /*}*/
 
@@ -192,10 +199,10 @@ span p{
 
 /*old css*/
 
-.table{
+table{
     font-size:1.3rem;
     width:80%;
-    transform:translateY(-23rem)
+    /*transform:translateY(-23rem)*/
 }
 .fa{
     visibility:hidden;

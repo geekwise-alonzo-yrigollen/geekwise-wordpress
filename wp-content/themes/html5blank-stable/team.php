@@ -7,71 +7,59 @@
     <?php the_content(); ?>
     <?php endwhile; ?>
     <?php endif; ?>
-<!--       COMMENCE MAIN ELEMENT-->
+       COMMENCE MAIN ELEMENT
              
-       <!--<main>-->
+       <main>
    
-       <!--    <p>Geekwise Academy was founded on the belief that we, as in the world, can do a whole lot better than we presently are in educating technologists. To accomplish that, we needed to assemble a team of people who know what they’re talking about. Here’s what we came up with.</p>-->
-       <!--</main>-->
+           <p>Geekwise Academy was founded on the belief that we, as in the world, can do a whole lot better than we presently are in educating technologists. To accomplish that, we needed to assemble a team of people who know what they’re talking about. Here’s what we came up with.</p>
        
-<!--       END ***MAIN ELEMENT***-->
+       </main>
+       
+       END ***MAIN ELEMENT***
        
        
-<!--       COMMENCE BOTTOM IMAGES-->
+       COMMENCE BOTTOM IMAGES
        
-       <!--<section class="pics">-->
+      <!-- <section class="pics">-->
        
-<!--       JAKE LOGO-->
+      <!-- JAKE LOGO-->
        
-           <!--<span  class="aplus">-->
-           <!--    <a href="teamJake.html">-->
-           <!--        <img src="http://i.imgur.com/qwUah37.jpg">-->
-           <!--    </a>-->
-           <!--</span>-->
+      <!--     <span  class="aplus">-->
+      <!--         <a href="teamJake.html">-->
+      <!--             <img src="http://i.imgur.com/qwUah37.jpg">-->
+      <!--         </a>-->
+      <!--     </span>-->
            
-<!--           JAKE LOGO ***END***-->
+      <!--     JAKE LOGO ***END***-->
       
-<!--      IRMA LOGO-->
+      <!--IRMA LOGO-->
        
-           <!--<span class="aplus">-->
-           <!--    <a  href="irmaTeam.html">-->
-           <!--        <img src="http://i.imgur.com/khbd2Cq.jpg">-->
-           <!--    </a>-->
-           <!--</span>-->
+      <!--     <span class="aplus">-->
+      <!--         <a  href="irmaTeam.html">-->
+      <!--             <img src="http://i.imgur.com/khbd2Cq.jpg">-->
+      <!--         </a>-->
+      <!--     </span>-->
            
-<!--           IRMA LOGO ***END***-->
+      <!--     IRMA LOGO ***END***-->
           
-<!--          BETH LOGO-->
+      <!--    BETH LOGO-->
            
-           <!--<span class="aplus">-->
-           <!--    <a href="bethTeam.html">-->
-           <!--        <img src="http://i.imgur.com/VdjYDCH.jpg">-->
-           <!--    </a>-->
-           <!--</span>-->
+      <!--     <span class="aplus">-->
+      <!--         <a href="bethTeam.html">-->
+      <!--             <img src="http://i.imgur.com/VdjYDCH.jpg">-->
+      <!--         </a>-->
+      <!--     </span>-->
            
-<!--           BETH LOGO ***END***-->
+      <!--     BETH LOGO ***END***-->
       
-<!--      TERRY LOGO-->
+      <!--TERRY LOGO-->
        
-           <!--<span class="aplus">-->
-           <!--    <a href="terryTeam.html">-->
-           <!--        <img src="http://i.imgur.com/99RFgUT.jpg">-->
-           <!--    </a>-->
-           <!--</span>-->
+      <!--     <span class="aplus">-->
+      <!--         <a href="terryTeam.html">-->
+      <!--             <img src="http://i.imgur.com/99RFgUT.jpg">-->
+      <!--         </a>-->
+      <!--     </span>-->
            
-<!--       TERRY LOGO ***END***-->
+      <!-- TERRY LOGO ***END***-->
       
-       </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
+      <!-- </section>-->
