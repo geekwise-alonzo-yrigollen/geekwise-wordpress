@@ -52,6 +52,22 @@ header{
     
 }
 
+.block-title{
+   
+    font-size:16px;
+    display:block;
+    text-align:left;
+    font-weight:bold;
+    border-bottom:1px solid #afafaf;
+    width:100%;
+    
+    
+    
+}
+.section{
+    float:left;
+}
+
 .parent{
     
     margin:0 auto;
@@ -160,6 +176,21 @@ h2{
     font-size:1.4rem;
     border-bottom:solid .03rem;
 }
+
+.yellow-button{
+    
+    color:black;
+    background-color:#f9da0c;
+    margin:0 auto;
+    padding:1.5em;
+    display:block;
+    width:30%;
+    font-weight:700;
+    text-decoration:none;
+    text-align:center;
+    
+}
+
 #second{
     
     display:block;

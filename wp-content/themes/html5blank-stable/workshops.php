@@ -22,7 +22,7 @@
 
           <!--    <p>Workshops are free to current Geekwise Academy students &amp; $10 per session for non-students. Freelancing for Geeks has two sessions ($20 total) and Job Stuff has three sessions ($30 total). Workshops sessions cannot be sold separately; each session will build on the one before.</p>-->
 
-    </section>
+      </section>
     
 <!--    FIRST SECTION ***END***-->
     
@@ -69,7 +69,7 @@
         <!--    Our experts will take you through exercises in interview prep that will help you showcase your skills, so tuck in your shirt and line up that fade. We’ll teach you to kill it in the interview-->
         <!--</p>-->
         
-         </section>
+    </section>
          
 <!--         SECOND SECTION ***END***-->
         
@@ -109,5 +109,5 @@
 <!--         THIRD SECTION ***END***-->
      
     </main> 
-    </body>
+    
     
