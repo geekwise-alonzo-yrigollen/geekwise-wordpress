@@ -7,6 +7,7 @@
     <?php the_content(); ?>
     <?php endwhile; ?>
     <?php endif; ?>
+    
        COMMENCE MAIN ELEMENT
              
        <main>
@@ -16,8 +17,7 @@
        </main>
        
        END ***MAIN ELEMENT***
-       
-       
+      
        COMMENCE BOTTOM IMAGES
        
       <!-- <section class="pics">-->

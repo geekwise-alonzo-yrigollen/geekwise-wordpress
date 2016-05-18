@@ -7,6 +7,7 @@
 	font-smoothing:antialiased;
 	text-rendering:optimizeLegibility;
 }
+
 html, body{
     margin: 0 auto;
     padding:0;
@@ -14,14 +15,15 @@ html, body{
 }
 
 body{
-    box-sizing: border-box;
+    box-sizing:border-box;
     margin:0;
     width:100%;
-    height: 100%;
+    height:100%;
     background-color:#7a1501;
     text-align:center;
     font-family:sans-serif;
 }
+
 header{
     margin:0 auto;
     width:5%;
@@ -60,33 +62,28 @@ header{
     font-size:16px;
     display:block;
     padding:1em;
-    width:27%;
+    width:29%;
     background-color:#fff;
-    
     
 }
 
-    
 .title{
     
     margin:0 auto;
     font-size:16px;
     display:block;
     padding:1em;
-    width:27%;
+    width:29%;
     background-color:#fff;
     
     
 }
     
-    
-    
-}
-
 a{
     width:100%;
     height:100%;
 }
+
 pics{
     display:block;
     margin:0 auto;

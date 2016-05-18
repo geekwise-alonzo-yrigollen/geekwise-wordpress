@@ -1,7 +1,6 @@
 <?php/*Template Name: Signup */ ?>
 <?php get_header('signup'); ?>
 
-
     <?php if (have_posts()) : ?>
     <?php while (have_posts()) : the_post(); ?>
     <?php the_content(); ?>
