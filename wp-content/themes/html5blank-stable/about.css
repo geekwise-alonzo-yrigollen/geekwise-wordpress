@@ -160,7 +160,7 @@ span h1{
 .col-xs-12{
     
     color:#fff;
-    width:calc(100%/2);
+    width:100%;
     font-size:12px;
     font-weight:700;
     
@@ -177,20 +177,20 @@ span h1{
 /*}*/
 .left-side{
     margin:0 auto;
-    width:100%;
+    width:calc(100%/2);
     float:left;
-    padding:6em;
+    padding:1em;
     text-align:left;
     display:block;
-    font-size:1.5em;
+    font-size:1em;
 }
 .right-side{
     margin:0 auto;
     text-align:left;
-    width:100%;
+    padding:1em;
+    width:calc(100%/2);
     height:auto;
-    padding:6em;
-    float:right;
+    float:left;
     font-size:1em;
     display:block;
 }
