@@ -36,16 +36,7 @@
        
     <header>
        
-        <style type='text/css' media='screen'>
-	h1{ font-family:"Oswald", arial, sans-serif;}
-	h2{ font-family:"Oswald", arial, sans-serif;}
-	h3{ font-family:"Oswald", arial, sans-serif;}
-	h4{ font-family:"Oswald", arial, sans-serif;}
-	body{ font-family:"Lora", arial, sans-serif;}
-	blockquote{ font-family:"Lora", arial, sans-serif;}
-	p{ font-family:"Lora", arial, sans-serif;}
-	li{ font-family:"Lora", arial, sans-serif;}
-</style>
+
         
 <!--        COMMENCE LOGO-->
         
@@ -65,46 +56,7 @@
             	 <a href="/contact.php?page_id=16"></a>
             </nav>
     
-<!--           LEFT LOGO ***END***-->
-          
-<!--          COMMENCE NAV BAR ELEMENTS-->
 
-           
-           <!--<ul>-->
-           <!--    <li id="active_about" >-->
-                
-           
-           <!--    </li>-->
-           <!--    <li>-->
-           <!--        
-           <!--    </li>-->
-           <!--    <li>-->
-           <!--        
-           <!--    </li>-->
-           <!--    <li>-->
-           <!--        
-           <!--    </li>-->
-           <!--    <li class="active">>-->-->
-           <!--        
-           <!--    </li>-->
-           <!--    <li>-->
-           <!--        
-           <!--    </li>-->
-           <!--    <li>-->
-           <!--        
-           <!--    </li>-->
-               
-           <!--</ul>-->
-             
-        <!--</nav>-->
-        
-<!--        NAV BAR ELEMENTS ***END***-->
-       
-<!--
-       <span>
-           <img id="logo" src="http://i.imgur.com/2bJ6w9W.png">
-       </span>
--->
 
 <!--            BELOW IS THE ACTIVE BUTTON-->
 
