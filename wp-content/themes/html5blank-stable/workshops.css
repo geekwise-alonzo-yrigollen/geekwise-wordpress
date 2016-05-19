@@ -52,6 +52,43 @@ header{
     
 }
 
+.info-box{
+    
+    display:block;
+    margin:0 auto;
+    
+}
+
+.nav{
+    
+    margin:0 auto;
+    display:block;
+    
+    
+}
+.nav ul{
+    
+    display:inline-block;
+    margin:0 auto;
+    
+    
+}
+.nav ul li{
+    
+    display:inline-block;
+    
+    
+    
+}
+.nav ul li a{
+    
+    color:#fff;
+    text-decoration:none;
+    font-size:16px;
+    padding:.5em;
+    font-weight:600;
+}
+
 .block-title{
    
     font-size:16px;
@@ -102,19 +139,30 @@ header{
     color:#f9da0c;
     
 }
-.active_page a {
+
+#active a{
     
     color:#f9da0c;
+    
+    
+}
+.block-title{
+    
+     color:#fff;
+     font-size:16px;
+     transform:translateX(8em);
+    
+    
 }
 
 .sign a{
     color:#7a1501;
     background-color:#f9da0c;
 }
+
 .sign a:hover{
     color:#7a1501;
 }
-
 
 span p{
     
@@ -153,6 +201,7 @@ main{
     margin:0 auto;
     
 }
+
 .first{
     
     display:block;
@@ -160,6 +209,7 @@ main{
     height: auto;
     
 }
+
 p{
     
     font-size:1.2rem;
@@ -198,6 +248,7 @@ h2{
     height:auto;
     
 }
+
 #h2{
     
     width:100%;
@@ -206,6 +257,7 @@ h2{
     font-size:1.4rem;
     border-bottom:solid .03rem;  
 }
+
 p{
     width:100%;
     text-align:left;
@@ -216,12 +268,14 @@ b{
     float:left;
     text-align:left;
 }
+
 #third{
     
     width:auto;
     height:52rem;
     
 }
+
 #last{
     
     float:left;
@@ -233,6 +287,7 @@ b{
     font-size:1.4rem;
     border-bottom:solid .03rem;   
 }
+
 b{
     
     font-size:1.2rem;
@@ -240,6 +295,7 @@ b{
     text-align:left;
     
 }
+
 .button a{
     
     color:black;
@@ -349,9 +405,11 @@ h3:hover{
     
         
     }
+    
     nav{
         display:none;
     }
+    
     topbar{
         display:none;
     }
@@ -365,6 +423,7 @@ h3:hover{
     visibility:visible;
    
 }
+
     #ch{
         
         display:none;
@@ -376,6 +435,7 @@ h3:hover{
         color:black;
         
     }
+    
     nav{
         
         visibility:hidden;
@@ -386,6 +446,7 @@ h3:hover{
     }
 
 #owl{
+    
     margin:0 auto;
     display:block;
     float:right;

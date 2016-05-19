@@ -41,45 +41,45 @@
             </span>
             
            <label class="fa fa-bars list" for="bars"></label>
-            <!--<nav class="nav" role="navigation">-->
-            <!--	<?php html5blank_nav(); ?>-->
-            <!--	 <a href="/index.php?page_id=4"></a>-->
-            <!--	 <a href="/courses.php?page_id=6"></a>-->
-            <!--	 <a href="/workshops.php?page_id=8"></a>-->
-            <!--	 <a href="/cohort.php.php?page_id=10"></a>-->
-            <!--	 <a href="/signup.php.php?page_id=12"></a-->
-            <!--	 <a href="/team.php?page_id=14"></a>-->
-            <!--	 <a href="/contact.php?page_id=16"></a>-->
-            <!--</nav>-->
+            <nav class="nav" role="navigation">
+            	<?php html5blank_nav(); ?>
+            	 <a href="/index.php?page_id=4"></a>
+            	 <a href="/courses.php?page_id=6"></a>
+            	 <a href="/workshops.php?page_id=8"></a>
+            	 <a href="/cohort.php.php?page_id=10"></a>
+            	 <a href="/signup.php.php?page_id=12"></a
+            	 <a href="/team.php?page_id=14"></a>
+            	 <a href="/contact.php?page_id=16"></a>
+            </nav>
     
            
            
 <!--          <input type="checkbox" id="bars">-->
     
-          <div class="parent">
-              <div class="item">
-                  <a href="about.html">About</a>
-              </div>
-              <div class="item">
-                  <a href="courses.html">courses</a>
-              </div>
-              <div class=" item active_page">
-                  <a href="workshops.html">workshops</a>
-              </div>
-              <div class="item">
-                  <a href="cohort.html">cohort</a>
-              </div>
-              <div class="item">
-                  <a href="team.html">team</a>
-              </div>
-              <div class="item">
-                  <a href="contact.html">contact</a>
-              </div>
+          <!--<div class="parent">-->
+          <!--    <div class="item">-->
+          <!--        <a href="about.html">About</a>-->
+          <!--    </div>-->
+          <!--    <div class="item">-->
+          <!--        <a href="courses.html">courses</a>-->
+          <!--    </div>-->
+          <!--    <div class=" item active_page">-->
+          <!--        <a href="workshops.html">workshops</a>-->
+          <!--    </div>-->
+          <!--    <div class="item">-->
+          <!--        <a href="cohort.html">cohort</a>-->
+          <!--    </div>-->
+          <!--    <div class="item">-->
+          <!--        <a href="team.html">team</a>-->
+          <!--    </div>-->
+          <!--    <div class="item">-->
+          <!--        <a href="contact.html">contact</a>-->
+          <!--    </div>-->
        
-              <div class="item sign">
-                  <a href="signup.html">sign up</a>
-              </div>
-          </div>  
+          <!--    <div class="item sign">-->
+          <!--        <a href="signup.html">sign up</a>-->
+          <!--    </div>-->
+          <!--</div>  -->
          
 <!--         COMMENCE TEXT SECTION-->
          

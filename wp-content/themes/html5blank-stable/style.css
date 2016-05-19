@@ -1,139 +1,139 @@
-*,
-*:after,
-*:before {
-	-moz-box-sizing:border-box;
-	box-sizing:border-box;
-	-webkit-font-smoothing:antialiased;
-	font-smoothing:antialiased;
-	text-rendering:optimizeLegibility;
-}
-html,body{
-    margin: 0;
-    padding: 0;
+/**,*/
+/**:after,*/
+/**:before {*/
+/*	-moz-box-sizing:border-box;*/
+/*	box-sizing:border-box;*/
+/*	-webkit-font-smoothing:antialiased;*/
+/*	font-smoothing:antialiased;*/
+/*	text-rendering:optimizeLegibility;*/
+/*}*/
+/*html,body{*/
+/*    margin: 0;*/
+/*    padding: 0;*/
     
-}
+/*}*/
 
 /*HOME PAGE BODY IS HERE*/
 
-body{
-    margin: 0;
-    padding: 0;
-}
-.fa{
-    visibility:hidden;
-}
+/*body{*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
+/*.fa{*/
+/*    visibility:hidden;*/
+/*}*/
 
 /*BELOW HEADER HAS AN ID="STAY"*/
 
 /*BELOW NAV HAS AN ID="topbar"*/
 
-header{
-    display:block;
-    padding:0;
-    height:25.3rem;
-}
+/*header{*/
+/*    display:block;*/
+/*    padding:0;*/
+/*    height:25.3rem;*/
+/*}*/
 
-#topbar{
-    display:flex;
-    justify-content:center;
+/*#topbar{*/
+/*    display:flex;*/
+/*    justify-content:center;*/
 
-}
+/*}*/
 
 /*UL IS DISPLAYED BLOCK */
 
-ul{
-    display:block;
-    list-style:none;
-    line-height:1rem;
-}
+/*ul{*/
+/*    display:block;*/
+/*    list-style:none;*/
+/*    line-height:1rem;*/
+/*}*/
 
 /*LI DISPLAY INLINE-BLOCK MAKES LIST INDIVIDUALLY BOXED IN A HORIZONTAL LINE*/
 
-li{
-    padding:1rem;
-    display:inline-block;
-    float:left;
-    font-size:.8rem;
-    font-weight:600;
-    text-transform:uppercase;
-    transform:translateY(-1.3em);
-}
-li:hover{
-    color:#7a1501;
-    background-color:#f9da0c;
-}
+/*li{*/
+/*    padding:1rem;*/
+/*    display:inline-block;*/
+/*    float:left;*/
+/*    font-size:.8rem;*/
+/*    font-weight:600;*/
+/*    text-transform:uppercase;*/
+/*    transform:translateY(-1.3em);*/
+/*}*/
+/*li:hover{*/
+/*    color:#7a1501;*/
+/*    background-color:#f9da0c;*/
+/*}*/
 
 /*ACTIVE CLASS REFERS TO THE SIGN UP BUTTON*/
 
-.active{
+/*.active{*/
     
-    background-color:#f9da0c;
+/*    background-color:#f9da0c;*/
 
-}
+/*}*/
 
-.active > a{
-    color:#7a1501;
-}
+/*.active > a{*/
+/*    color:#7a1501;*/
+/*}*/
 
-a{
-    text-decoration:none;
-    color:black;
-}
+/*a{*/
+/*    text-decoration:none;*/
+/*    color:black;*/
+/*}*/
 
 /*BELOW WILL MAKE YOUR ANCHOR TAG HOVER RED*/
 
-a:hover{
-    display:block;
-    color:#7a1501;
-}
+/*a:hover{*/
+/*    display:block;*/
+/*    color:#7a1501;*/
+/*}*/
 
-#geekwise{
-    margin:0 auto;
+/*#geekwise{*/
+/*    margin:0 auto;*/
     
-}
+/*}*/
 
-.divider{
-    color:#fff;
-    width: calc(100% / 3);
+/*.divider{*/
+/*    color:#fff;*/
+/*    width: calc(100% / 3);*/
     
     
     
-}
-.vertical-divider{
-    color:#fff;
-}
-h2{
-    position:relative;
-    top:30px;
-    font-family:"franchise";
-    font-size: 2.0em;
-    text-align:center;
-    margin:40px auto 0px auto;
-    color:white;
-    text-transform:uppercase;
-}
+/*}*/
+/*.vertical-divider{*/
+/*    color:#fff;*/
+/*}*/
+/*h2{*/
+/*    position:relative;*/
+/*    top:30px;*/
+/*    font-family:"franchise";*/
+/*    font-size: 2.0em;*/
+/*    text-align:center;*/
+/*    margin:40px auto 0px auto;*/
+/*    color:white;*/
+/*    text-transform:uppercase;*/
+/*}*/
 
-h3{
-    position:relative;
-    top:30px;
-    font-family:"ciria";
-    font-size:2.0em;
-    font-weight:100;
-    text-align:center;
-    margin:0 auto;
-    width:59%;
-    color:white;
-    font-weight:thin;
-    text-transform:lowercase;
-}
+/*h3{*/
+/*    position:relative;*/
+/*    top:30px;*/
+/*    font-family:"ciria";*/
+/*    font-size:2.0em;*/
+/*    font-weight:100;*/
+/*    text-align:center;*/
+/*    margin:0 auto;*/
+/*    width:59%;*/
+/*    color:white;*/
+/*    font-weight:thin;*/
+/*    text-transform:lowercase;*/
+/*}*/
 
 
 /*THIS IS WHERE THE HEADER ENDS AND MAROONISH COLOR BEGINS AT BOTTOM*/
 
-.bottom{
-    height:400px;
-    background-color:#7A1501; 
-}
+/*.bottom{*/
+/*    height:400px;*/
+/*    background-color:#7A1501; */
+/*}*/
 
 /*.icons{*/
 /*    position:relative;*/
@@ -146,89 +146,89 @@ h3{
 /*    width:calc(100%/3);*/
 /*}*/
 
-.center{
-    width:23rem;
-    border-right:solid white .03rem;
-    border-left:solid white .03rem;
-}
+/*.center{*/
+/*    width:23rem;*/
+/*    border-right:solid white .03rem;*/
+/*    border-left:solid white .03rem;*/
+/*}*/
 
-#bars{
-    display:none;
-    float:right;
-}
-topbar{
-    height:auto;
-    display:inline;
-    float:right;
+/*#bars{*/
+/*    display:none;*/
+/*    float:right;*/
+/*}*/
+/*topbar{*/
+/*    height:auto;*/
+/*    display:inline;*/
+/*    float:right;*/
     
     
-}
-.fa{
+/*}*/
+/*.fa{*/
     
-    float:right;
-    display:block;
+/*    float:right;*/
+/*    display:block;*/
     
-}
-.list{
+/*}*/
+/*.list{*/
     
-    float:right;
-    text-align:right;
-    display:block;
-}
+/*    float:right;*/
+/*    text-align:right;*/
+/*    display:block;*/
+/*}*/
 
-span>img{
+/*span>img{*/
     
-    margin:0 auto;
-    display:block;
+/*    margin:0 auto;*/
+/*    display:block;*/
     
-}
+/*}*/
 
 /*COMMENCE MEDIA*/
 
-@media only screen and (max-width:1021px){
+/*@media only screen and (max-width:1021px){*/
     
-    {
-        margin-left:300px;
-    }
-}
-@media only screen and (max-width:900px){
-    .fa{
-        visibility: visible;
-        color: gray;
-    }
+/*    {*/
+/*        margin-left:300px;*/
+/*    }*/
+/*}*/
+/*@media only screen and (max-width:900px){*/
+/*    .fa{*/
+/*        visibility: visible;*/
+/*        color: gray;*/
+/*    }*/
    
-    li{
-        text-align:left;
-        width: 100px;
-        color: black;
-    }
-    nav{
+/*    li{*/
+/*        text-align:left;*/
+/*        width: 100px;*/
+/*        color: black;*/
+/*    }*/
+/*    nav{*/
         
-        visibility:visible;
-    }
+/*        visibility:visible;*/
+/*    }*/
 
     
-}
-@media only screen and (max-width:600px){
-    .lines{
-        margin-left:170px;
-    }
-}
-@media only screen and (max-width:480px){
-    img{
-        width:100%;
-        height: auto;
-    }
+/*}*/
+/*@media only screen and (max-width:600px){*/
+/*    .lines{*/
+/*        margin-left:170px;*/
+/*    }*/
+/*}*/
+/*@media only screen and (max-width:480px){*/
+/*    img{*/
+/*        width:100%;*/
+/*        height: auto;*/
+/*    }*/
     
-    .icons{
-        margin-left: 70px;
-        width: 10%;
-        height: auto;
+/*    .icons{*/
+/*        margin-left: 70px;*/
+/*        width: 10%;*/
+/*        height: auto;*/
         
-    }
-    li{
-      visibility:hidden;
-      text-align: right;
+/*    }*/
+/*    li{*/
+/*      visibility:hidden;*/
+/*      text-align: right;*/
     
-    }
-}
+/*    }*/
+/*}*/

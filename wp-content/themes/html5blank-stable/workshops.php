@@ -2,9 +2,6 @@
 <?php get_header('workshops'); ?>
 
 
-
-
-
 <!--      MAIN SECTION BEGIN-->
      <main>
          
@@ -30,44 +27,34 @@
 <!--    COMMENCE SECOND SECTION-->
     
     <section id="second">      
-        <!--<h2 id="h2">-->
-        <!--    jobstuff for geeks-->
-        <!--</h2>-->
-        <!--<b>-->
-        <!--    Ask for Advice, Get Money Twice-->
-        <!--</b>-->
+        <h2 id="h2">
+        </h2>
+        <b>
+        </b>
 
-        <!--<p>-->
-        <!--    1st Saturday of the Month 9:30am to 12:30pm-->
-        <!--</p>-->
+        <p>
+        </p>
 
-        <!--<p>-->
-        <!--    Draft the résumé that gets you the interview by learning how to use resources and tips to build a stellar résumé. Get step-by-step instructions and feedback from our résumé experts    -->
-        <!--</p>-->
+        <p>
+        </p>
 
-        <!--<b>-->
-        <!--    You Better Check Yo’self Before You Wreck Yo’self-->
-        <!--</b>-->
+        <b>
+        </b>
 
-        <!--<p>-->
-        <!--    2nd Saturday of the Month 9:30am to 12:30pm-->
-        <!--</p>-->
+        <p>
+        </p>
 
-        <!--<p>-->
-        <!--    Develop your personal profile and learn how to sell your skills. Create dynamic and interesting profiles on LinkedIn and GitHub and fine tune your résumé.-->
-        <!--</p>-->
+        <p>
+        </p>
 
-        <!--<b>    -->
-        <!--    So Fresh So Clean-->
-        <!--</b>-->
+        <b>    
+        </b>
 
-        <!--<p>-->
-        <!--    3rd Saturday of the Month 9:30am to 12:30pm-->
-        <!--</p>-->
+        <p>
+        </p>
 
-        <!--<p>-->
-        <!--    Our experts will take you through exercises in interview prep that will help you showcase your skills, so tuck in your shirt and line up that fade. We’ll teach you to kill it in the interview-->
-        <!--</p>-->
+        <p>
+        </p>
         
     </section>
          
