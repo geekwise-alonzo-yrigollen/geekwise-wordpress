@@ -40,6 +40,11 @@ header{
     transform:translateX(-22em);
     
 }
+#bars{
+    
+    display:none;
+    
+}
 
 #topbar{
     display:flex;

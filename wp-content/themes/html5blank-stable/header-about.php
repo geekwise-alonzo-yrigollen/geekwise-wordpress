@@ -36,7 +36,16 @@
        
     <header>
        
-        <!--<nav>-->
+        <style type='text/css' media='screen'>
+	h1{ font-family:"Oswald", arial, sans-serif;}
+	h2{ font-family:"Oswald", arial, sans-serif;}
+	h3{ font-family:"Oswald", arial, sans-serif;}
+	h4{ font-family:"Oswald", arial, sans-serif;}
+	body{ font-family:"Lora", arial, sans-serif;}
+	blockquote{ font-family:"Lora", arial, sans-serif;}
+	p{ font-family:"Lora", arial, sans-serif;}
+	li{ font-family:"Lora", arial, sans-serif;}
+</style>
         
 <!--        COMMENCE LOGO-->
         

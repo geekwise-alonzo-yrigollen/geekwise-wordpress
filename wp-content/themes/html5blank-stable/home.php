@@ -12,10 +12,7 @@
     <?php endwhile; ?>
     <?php endif; ?>
 
-     
-     
-       
-        </div>
+        
         
    </div>
    
