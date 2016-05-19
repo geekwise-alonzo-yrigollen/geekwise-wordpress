@@ -57,7 +57,6 @@
             </nav>
     
 
-
 <!--            BELOW IS THE ACTIVE BUTTON-->
 
                <span id="active">
