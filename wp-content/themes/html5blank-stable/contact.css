@@ -207,6 +207,14 @@ h2{
     transform:translateY(5rem);
    
 }
+.backdround_image{
+    
+    /*width:28em;*/
+    /*display:block;*/
+    /*margin:0 auto;*/
+    /*transform:translateY(18em);*/
+    
+}
 #second{
     display:block;
     margin:0 auto;

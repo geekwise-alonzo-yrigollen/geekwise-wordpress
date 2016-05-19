@@ -20,17 +20,8 @@
     <?php the_content(); ?>
     <?php endwhile; ?>
     <?php endif; ?>
-    
-<!--     COMMENCE FIRST SECTION LEFT-->
-     
-      <section>
-        
 
-    
-      </section>  
- 
-<!-- SECTION ***END***-->
-  </main>
+</main>
 <!--  MAIN ELEMENT ***END***-->
 
 <!--COMMENCE FOOTER ELEMENT-->
