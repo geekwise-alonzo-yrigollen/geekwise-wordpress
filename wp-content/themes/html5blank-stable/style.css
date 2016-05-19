@@ -149,6 +149,7 @@ h3{
     border-right:solid white .5px;
     padding:1em;
     
+    
 }
 
 .info-box{
@@ -159,15 +160,15 @@ h3{
     float:left;
     text-transform:uppercase;
     transform:translateX(10em);
-    width:calc(70%/3);
+    width:calc(65%/3);
 }
 
-.center{
-    width:23rem;
-    text-align:center;
-    border-right:solid white .03rem;
-    border-left:solid white .03rem;
-}
+/*.center{*/
+/*    width:23rem;*/
+/*    text-align:center;*/
+/*    border-right:solid white .03rem;*/
+/*    border-left:solid white .03rem;*/
+/*}*/
 
 /*#bars{*/
 /*    display:none;*/
