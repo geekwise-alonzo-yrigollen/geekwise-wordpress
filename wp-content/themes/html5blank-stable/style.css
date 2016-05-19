@@ -19,9 +19,9 @@ body{
     margin: 0;
     padding: 0;
 }
-.fa{
-    visibility:hidden;
-}
+/*.fa{*/
+/*    visibility:hidden;*/
+/*}*/
 
 /*BELOW HEADER HAS AN ID="STAY"*/
 
@@ -30,7 +30,13 @@ body{
 header{
     display:block;
     padding:0;
-    height:25.3rem;
+    
+}
+.nav{
+    
+    margin:0 auto;
+    text-align:center;
+    
 }
 
 #topbar{
@@ -39,7 +45,7 @@ header{
 
 }
 
-UL IS DISPLAYED BLOCK 
+/*UL IS DISPLAYED BLOCK */
 
 ul{
     display:block;
@@ -94,16 +100,16 @@ a:hover{
     
 }
 
-.divider{
-    color:#fff;
-    width: calc(100% / 3);
+/*.divider{*/
+/*    color:#fff;*/
+/*    width: calc(100% / 3);*/
     
-    
-    
-}
+/*}*/
+
 .vertical-divider{
     color:#fff;
 }
+
 h2{
     position:relative;
     top:30px;
@@ -124,8 +130,8 @@ h3{
     text-align:center;
     margin:0 auto;
     width:59%;
+    border-bottom: solid white .5px; 
     color:white;
-    font-weight:thin;
     text-transform:lowercase;
 }
 
@@ -136,17 +142,23 @@ h3{
     height:400px;
     background-color:#7A1501; 
 }
+.wp-image-182{
+    border-left:solid white .5px;
+    border-right:solid white .5px;
+    padding:1em;
+    
+}
 
-/*.icons{*/
-/*    position:relative;*/
-/*    top:50px;*/
-/*    display:block;*/
-/*    color:white;*/
-/*    float:left;*/
-/*    text-transform:uppercase;*/
-/*    text-align:center;*/
-/*    width:calc(100%/3);*/
-/*}*/
+.info-box{
+    position:relative;
+    top:50px;
+    display:block;
+    color:white;
+    float:left;
+    text-transform:uppercase;
+    transform:translateX(10em);
+    width:calc(70%/3);
+}
 
 .center{
     width:23rem;
