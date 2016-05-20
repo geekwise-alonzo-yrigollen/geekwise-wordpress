@@ -7,7 +7,7 @@
    
    <body>
 
-       <main>
+       <main id='main'>
             <img id='background' src='http://i.imgur.com/bXtIcQ2.jpg'>
            
         <div class="background_image">  

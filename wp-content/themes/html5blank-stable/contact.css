@@ -32,9 +32,10 @@ header{
  
 }
 
-main{
+#main{
     margin:0 auto;
     background-size:cover;
+    height:837px;
     
 }
 
@@ -231,7 +232,6 @@ h2{
     
 }
 
-
 .background_image{
     transform:translateY(-64em);
 }
@@ -243,6 +243,7 @@ h2{
     width:9rem;
     background-image:url("http://i.imgur.com/C1LTRQ7.png");
     background-repeat:no-repeat;
+    background-size:cover;
     transform:translateY(-4rem);
     
     
