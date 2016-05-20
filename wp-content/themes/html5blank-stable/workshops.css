@@ -39,6 +39,14 @@ header{
     background-color:#7a1501;
  
 }
+#text_menu{
+    
+    display:block;
+    margin:0 auto;
+    transform:translateY(-18em);
+    
+    
+}
 
 .logo{
     
@@ -113,14 +121,15 @@ header{
     
     color:#f9da0c;
     
-    
 }
+
 .section{
     
      text-align:left;
      
   
 }
+
 .heading{
     
      font-weight:bold;
@@ -128,7 +137,7 @@ header{
      text-transform:uppercase;
      font-size:2em;
      float:left;
-      border-bottom:1px solid #afafaf;
+     border-bottom:1px solid #afafaf;
      padding-bottom:8px;
      margin-bottom:8px;
     
@@ -225,6 +234,14 @@ h2{
     display:block;
     margin:0 auto;
     height:auto;
+    
+}
+.address{
+    
+    
+    display:block;
+    margin:0 auto;
+    transform:translateY(-1em) !important;
     
 }
 

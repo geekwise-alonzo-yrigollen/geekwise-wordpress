@@ -22,6 +22,7 @@ html, body{
 }
 
 body{
+    height:auto;
     box-sizing:border-box;
     margin:0;
     background-color:snow;
@@ -207,14 +208,31 @@ h2{
     transform:translateY(5rem);
    
 }
-.backdround_image{
+#bitwise{
     
-    /*width:28em;*/
-    /*display:block;*/
-    /*margin:0 auto;*/
-    /*transform:translateY(18em);*/
+    width:14.7em;
+    font-size:12px;
+    display:block;
+    margin:0 auto;
+    padding:1.5em;
+    background-color:#fff;
+    transform:translateY(-.5em);
     
 }
+.address{
+    
+    font-weight:700;
+    
+}
+
+
+.background_image{
+    
+    
+    transform:translateY(-69em);
+    
+}
+
 #second{
     display:block;
     margin:0 auto;
