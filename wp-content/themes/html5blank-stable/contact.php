@@ -16,7 +16,7 @@
                <p class='address'>700 Van Ness Ave</p>
                <p class='address'>Fresno, California 93721</p>
                <p>559-472-8786</p>
-               <p>tsolis@bitwiseindustries.com</p>
+               <span id='terry'><a href="tsolis@bitwiseindustries.com"><p>tsolis@bitwiseindustries.com</p></a></span>
             </span>
         </div>
            
