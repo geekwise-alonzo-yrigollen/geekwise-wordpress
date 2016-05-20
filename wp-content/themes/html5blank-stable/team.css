@@ -130,12 +130,23 @@ main{
 .pics{
     width:100%;
     display:block;
+    transform:translateX(8em);
 
 }
+.names{
+    
+    color:black;
+    margin:0 auto;
+    font-size:16px;
+    text-align:center;
+    font-weight:800;
+    
+}
 
-.pics>.aplus>a{
+.pics .aplus a{
     display:inline-block;
     margin:0 auto;
+    float:left;
     width:calc(88%/4);
 }
 

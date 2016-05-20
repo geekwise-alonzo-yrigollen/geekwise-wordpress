@@ -8,7 +8,7 @@
     <?php endwhile; ?>
     <?php endif; ?>
     
-       COMMENCE MAIN ELEMENT
+       <!--COMMENCE MAIN ELEMENT-->
              
        <main>
    
@@ -16,50 +16,58 @@
        
        </main>
        
-       END ***MAIN ELEMENT***
+       <!--END ***MAIN ELEMENT***-->
       
-       COMMENCE BOTTOM IMAGES
+       <!--COMMENCE BOTTOM IMAGES-->
        
-      <!-- <section class="pics">-->
+      <section class="pics">
        
-      <!-- JAKE LOGO-->
+       <!--JAKE LOGO-->
        
-      <!--     <span  class="aplus">-->
-      <!--         <a href="teamJake.html">-->
-      <!--             <img src="http://i.imgur.com/qwUah37.jpg">-->
-      <!--         </a>-->
-      <!--     </span>-->
+           <span  class="aplus">
+               <a href="teamJake.html">
+                   <img src="http://i.imgur.com/qwUah37.jpg">
+                   <p class="names">JAKE A. SOBERAL</p>
+               </a>
+               
+           </span>
            
       <!--     JAKE LOGO ***END***-->
       
       <!--IRMA LOGO-->
        
-      <!--     <span class="aplus">-->
-      <!--         <a  href="irmaTeam.html">-->
-      <!--             <img src="http://i.imgur.com/khbd2Cq.jpg">-->
-      <!--         </a>-->
-      <!--     </span>-->
+           <span class="aplus">
+               <a  href="irmaTeam.html">
+                   <img src="http://i.imgur.com/khbd2Cq.jpg">
+                   <p class="names">IRMA L. OLGUIN JR.</p>
+               </a>
+               
+           </span>
            
-      <!--     IRMA LOGO ***END***-->
+          <!-- IRMA LOGO ***END***-->
           
-      <!--    BETH LOGO-->
+          <!--BETH LOGO-->
            
-      <!--     <span class="aplus">-->
-      <!--         <a href="bethTeam.html">-->
-      <!--             <img src="http://i.imgur.com/VdjYDCH.jpg">-->
-      <!--         </a>-->
-      <!--     </span>-->
+           <span class="aplus">
+               <a href="bethTeam.html">
+                   <img src="http://i.imgur.com/VdjYDCH.jpg">
+                   <p class="names">BETH E. MILY</p>
+               </a>
+               
+           </span>
            
       <!--     BETH LOGO ***END***-->
       
       <!--TERRY LOGO-->
        
-      <!--     <span class="aplus">-->
-      <!--         <a href="terryTeam.html">-->
-      <!--             <img src="http://i.imgur.com/99RFgUT.jpg">-->
-      <!--         </a>-->
-      <!--     </span>-->
+           <span class="aplus">
+               <a href="terryTeam.html">
+                   <img src="http://i.imgur.com/99RFgUT.jpg">
+                   <p class="names">TERRY I. SOLIS</p>
+               </a>
+                  
+           </span>
            
-      <!-- TERRY LOGO ***END***-->
+       <!--TERRY LOGO ***END***-->
       
-      <!-- </section>-->
+       </section>
