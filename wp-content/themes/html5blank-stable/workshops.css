@@ -8,10 +8,6 @@
 	font-smoothing:antialiased;
 	text-rendering:optimizeLegibility;
 }
-/* html element 62.5% font-size for REM use */
-
-
-
 html, body{
     
     margin:0 auto;
@@ -39,14 +35,6 @@ header{
     background-color:#7a1501;
  
 }
-#text_menu{
-    
-    display:block;
-    margin:0 auto;
-    transform:translateY(-18em);
-    
-    
-}
 
 .logo{
     
@@ -60,36 +48,12 @@ header{
     
 }
 
-.info-box{
+.parent{
     
-    display:block;
-    margin:0 auto;
-    
-}
-
-.nav ul{
-    
-    display:inline-block;
-    margin:0 auto;
-    
-}
-.nav ul li{
-    
-    display:inline-block;
-    
-    
-}
-.nav ul li a{
-    
-    color:#fff;
-    text-decoration:none;
-    font-size:16px;
-    padding:.5em;
-    font-weight:600;
-}
-
-.section{
-    float:left;
+    border-color:#f9da0c;
+    display:flex;
+    justify-content:space-between;
+    width:97em;
 }
 
 .item{
@@ -116,41 +80,19 @@ header{
     color:#f9da0c;
     
 }
-
-#active a{
+.active_page a {
     
     color:#f9da0c;
-    
-}
-
-.section{
-    
-     text-align:left;
-     
-  
-}
-
-.heading{
-    
-     font-weight:bold;
-     display:block;
-     text-transform:uppercase;
-     font-size:2em;
-     float:left;
-     border-bottom:1px solid #afafaf;
-     padding-bottom:8px;
-     margin-bottom:8px;
-    
 }
 
 .sign a{
     color:#7a1501;
     background-color:#f9da0c;
 }
-
 .sign a:hover{
     color:#7a1501;
 }
+
 
 span p{
     
@@ -174,13 +116,6 @@ p > em{
 
 /*RESOLVE ISSUE WITH WIDTH, main text was at 100% reduced to 72%*/
 
-#call{
-    margin:0 auto;
-    width:36%;
-    font-size:13.5px;
-    float:left;
-}
-
 main{
     
     width:72%;
@@ -189,7 +124,6 @@ main{
     margin:0 auto;
     
 }
-
 .first{
     
     display:block;
@@ -197,7 +131,6 @@ main{
     height: auto;
     
 }
-
 p{
     
     font-size:1.2rem;
@@ -214,21 +147,6 @@ h2{
     font-size:1.4rem;
     border-bottom:solid .03rem;
 }
-
-.yellow-button{
-    
-    color:black;
-    background-color:#f9da0c;
-    margin:0 auto;
-    padding:1.5em;
-    display:block;
-    width:30%;
-    font-weight:700;
-    text-decoration:none;
-    text-align:center;
-    
-}
-
 #second{
     
     display:block;
@@ -236,14 +154,6 @@ h2{
     height:auto;
     
 }
-.address{
-    
-    display:block;
-    margin:0 auto;
-    transform:translateY(-1em) !important;
-    
-}
-
 #h2{
     
     width:100%;
@@ -252,7 +162,6 @@ h2{
     font-size:1.4rem;
     border-bottom:solid .03rem;  
 }
-
 p{
     width:100%;
     text-align:left;
@@ -263,14 +172,12 @@ b{
     float:left;
     text-align:left;
 }
-
 #third{
     
     width:auto;
     height:52rem;
     
 }
-
 #last{
     
     float:left;
@@ -282,7 +189,6 @@ b{
     font-size:1.4rem;
     border-bottom:solid .03rem;   
 }
-
 b{
     
     font-size:1.2rem;
@@ -290,7 +196,6 @@ b{
     text-align:left;
     
 }
-
 .button a{
     
     color:black;
@@ -400,11 +305,9 @@ h3:hover{
     
         
     }
-    
     nav{
         display:none;
     }
-    
     topbar{
         display:none;
     }
@@ -418,7 +321,6 @@ h3:hover{
     visibility:visible;
    
 }
-
     #ch{
         
         display:none;
@@ -430,7 +332,6 @@ h3:hover{
         color:black;
         
     }
-    
     nav{
         
         visibility:hidden;
@@ -441,7 +342,6 @@ h3:hover{
     }
 
 #owl{
-    
     margin:0 auto;
     display:block;
     float:right;

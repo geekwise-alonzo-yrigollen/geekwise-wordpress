@@ -35,12 +35,12 @@
      
       <header>
             <span class="logo">
-              <a href="/index.php?page_id=29">
-                  <img id="imag" src="http://i.imgur.com/EXCIxXZ.png">
-              </a>
+              <!--<a href="/index.php?page_id=29">-->
+              <!--    <img id="imag" src="http://i.imgur.com/EXCIxXZ.png">-->
+              <!--</a>-->
             </span>
             
-           <label class="fa fa-bars list" for="bars"></label>
+           <!--<label class="fa fa-bars list" for="ba<rs">/label>-->
             <nav class="nav" role="navigation">
             	<?php html5blank_nav(); ?>
             	 <a href="/index.php?page_id=4"></a>
@@ -53,6 +53,16 @@
             </nav>
     
            
+           
+<body>
+     
+      <header>
+          <!--<span>-->
+          <!--    <a href="index.html">-->
+          <!--        <img class="logo" src="http://geekwiseacademy.com/img/logo-geekwise_small-black.png">-->
+          <!--    </a>-->
+          <!--</span>-->
+          <!-- <label class="fa fa-bars list" for="bars"></label>-->
            
 <!--          <input type="checkbox" id="bars">-->
     
@@ -80,11 +90,12 @@
           <!--        <a href="signup.html">sign up</a>-->
           <!--    </div>-->
           <!--</div>  -->
+
          
 <!--         COMMENCE TEXT SECTION-->
          
           <span>
-              <p id='call'>
+              <p>
                 <em>
                     no fluff. we teach skills that you can use to make money.
                 </em>
