@@ -19,11 +19,11 @@
 
       <p>Our goal here is simple, we want to produce developers that are:</p>
      <ol>
-      <li class="number">Information literate</li>
-      <li class="number">Confident in their problem sliving abilities</li>
-      <li class="number">Reliable and professional</li>
-      <li class="number">Good communicators</li>
-      <li class="number">Driven to succeed, able to learn, and receive criticism</li>
+      <li class="number">1. Information literate</li>
+      <li class="number">2. Confident in their problem sliving abilities</li>
+      <li class="number">3. Reliable and professional</li>
+      <li class="number">4. Good communicators</li>
+      <li class="number">5. Driven to succeed, able to learn, and receive criticism</li>
       </ol>
         
       </section>

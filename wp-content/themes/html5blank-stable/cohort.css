@@ -27,6 +27,7 @@ body{
 main{
     margin: 20px; 
     width: 95%;
+    font-size:1em;
 }
 
 
@@ -91,7 +92,7 @@ ul li a{
 
 section{
    margin: 0;
-padding: 0;
+   padding: 0;
 }
 /* number list */
 ol{
@@ -100,15 +101,16 @@ ol{
     margin-left: 30px;
     text-align: center;
     clear:both;
-    display: inline-block;
+    display:block;
     text-transform: capitalize;
     
 }
 ol>li{
     
     font-weight:bold;
-    margin-left: 20px;
-    text-align: left;
+    display:block;
+    /*margin-left: 20px;*/
+    text-align:left;
 }
 #what{
     color: black;
@@ -172,7 +174,7 @@ h5{
     width: 80%;
 }
 .green{
-clear:inherit;
+  clear:inherit;
   display: block;
   width: 100%;
   padding: 20px; 
