@@ -30,10 +30,6 @@
     
   </head>
 
-
-
-
-
    <body>  
    
   <header>
@@ -51,45 +47,7 @@
 	<?php html5blank_nav(); ?>
 </nav>
 
-      <!--<nav id="topbar">-->
-     
-      <!-- <ul id="under">-->
-          
-      <!--     <li>-->
-      <!--         <a href="about.html">about</a>-->
-      <!--     </li>-->
-           
-      <!--     <li>-->
-      <!--         <a href="courses.html">courses</a>-->
-      <!--     </li>-->
-           
-      <!--     <li>-->
-      <!--         <a href="workshops.html">workshops</a>-->
-      <!--     </li>-->
-           
-      <!--     <li>-->
-      <!--         <a href="cohort.html">cohort</a>-->
-      <!--     </li>-->
-           
-      <!--     <li class="active">-->
-      <!--         <a href="signup.html">signup</a>-->
-      <!--     </li>-->
-           
-      <!--     <li>-->
-      <!--         <a href="team.html">team</a>-->
-      <!--     </li>-->
-           
-      <!--     <li>-->
-      <!--         <a href="contact.html">contact</a>-->
-      <!--     </li>-->
-            
-      <!-- </ul>-->
-        
-      <!-- </nav>-->
-       
-<!--       NAV BAR ENDS HERE -->
-        
-        <span id="geekwise">
+        <span class="geekwise workshops">
         
             <img src="http://i.imgur.com/p8H5Xv7.jpg" alt="#">
         

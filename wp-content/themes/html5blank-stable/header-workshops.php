@@ -19,10 +19,10 @@
 	<!--COMMENTED OUT THIS PHP SNIPPET AS IT WAS INTERFERRING WITH MULTIPLE PAGES-->
 	
 		<script>
-        conditionizr.com
-        configure environment tests
+        // conditionizr.com
+        // configure environment tests
         
-        conditionizr.config({
+       conditionizr.config({
             assets: '<?php echo get_template_directory_uri(); ?>',
             tests: {}
         });
@@ -46,20 +46,51 @@
             	 <a href="/contact.php?page_id=16"></a>
             </nav>
     
-        
-            <span class="logo">
-              <a href="/index.php?page_id=29">
-                  <img id="imag" src="http://i.imgur.com/EXCIxXZ.png">
+          <span>
+              <a href="index.html">
+                  <img class="logo" src="http://geekwiseacademy.com/img/logo-geekwise_small-black.png">
               </a>
-            </span>
+          </span>
+           <!--<label class="fa fa-bars list" for="bars"></label>-->
+           
+<!--          <input type="checkbox" id="bars">-->
+    
+          <!--<div class="parent">-->
+          <!--    <div class="item">-->
+          <!--        <a href="about.html">About</a>-->
+          <!--    </div>-->
+          <!--    <div class="item">-->
+          <!--        <a href="courses.html">courses</a>-->
+          <!--    </div>-->
+          <!--    <div class=" item active_page">-->
+          <!--        <a href="workshops.html">workshops</a>-->
+          <!--    </div>-->
+          <!--    <div class="item">-->
+          <!--        <a href="cohort.html">cohort</a>-->
+          <!--    </div>-->
+          <!--    <div class="item">-->
+          <!--        <a href="team.html">team</a>-->
+          <!--    </div>-->
+          <!--    <div class="item">-->
+          <!--        <a href="contact.html">contact</a>-->
+          <!--    </div>-->
+       
+          <!--    <div class="item sign">-->
+          <!--        <a href="signup.html">sign up</a>-->
+          <!--    </div>-->
+          <!--</div>  -->
+
+         
+<!--         COMMENCE TEXT SECTION-->
+         
+          <span>
+              <p>
+                <em>
+                    no fluff. we teach skills that you can use to make money.
+                </em>
+              </p>
+          </span>
+          
+<!--          MAIN SECTION ***END***-->
         
-            
-            
-             <span class="h1">
-                  <h1>
-                      NO FLUFF. WE TEACH SKILLS THAT YOU CAN USE TO MAKE MONEY.
-                  </h1>
-             </span>
-               
-        
-       </header>
+      </header>
