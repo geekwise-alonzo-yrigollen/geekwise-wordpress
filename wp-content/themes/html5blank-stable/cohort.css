@@ -33,7 +33,10 @@ nav{
     position: relative;
     top:-100px;
 }
-
+#img_logo{
+    
+    display:none;
+}
 
 section{
    margin: 0;
