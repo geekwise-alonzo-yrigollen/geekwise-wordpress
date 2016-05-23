@@ -75,14 +75,35 @@ ul li a{
     text-decoration:none;
 
 }
+.photos_cohort{
+    
+    width:220px;
+    height:137px;
+    padding:.4em;
+}
 #menu-item-162{
     
     background-color:yellow;
     font-weight:700;
 }
+/*commence cohort here*/
 
+table{
+    margin:0 auto;
+    width:80.1%;
+}
+.class2{
+    
+    width:calc(100%/4);
+    transform:translateX(-2em);
+}
 
-
+.group_bar{
+    
+    margin:0 auto;
+    text-align:left;
+    float:left;
+}
 
 
 #img_logo{
