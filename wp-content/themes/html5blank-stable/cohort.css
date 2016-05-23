@@ -9,193 +9,374 @@
 	font-smoothing:antialiased;
 	text-rendering:optimizeLegibility;
 }
-/* html element 62.5% font-size for REM use */
-
-
 html, body{
-    margin:0 auto;
+    margin:0;
     padding:0;
-    font-size:67.5%;
+    font-size:62.5%;
+    width:100%;
+    height:100%;
+    background-color:#7a1501;
 }
 
 body{
-    box-sizing:border-box;
-    margin:0 auto;
     width:100%;
-    background-color:white;
-    text-align:center;
-    font-family:sans-serif;
-}
-.header{
-    margin:0 auto;
-    width:100%;
-    height:17.5rem;  
-    display:block;
-    background-color:#fff; 
-}
-#img_logo{
-    float:right;
-    width:28rem; 
-    transform:translateY(-8rem);
-    
-}
-
-.logo{
-    
-    margin:0 auto;
-    display:block;
-    float:left;
-    padding-left:25em;
-    transform:translateY(-6.9em);
-}
-
-.nav{
-    
-    display:block;
-    margin:0 auto;
-    display:block;
-    transform:translateX(22em);
-    
-
-    
+    height: 100%;
+    text-align: center;
+    background-color:#7a1501;
+    font-family: sans-serif;
 }
 
 ul{
-    display:inline;
+    display: inline-block;
     margin:0 auto;
-    width:80%;
-    
-    font-size:4rem;
+    list-style: none;
+    padding:0;
 }
- ul li{
 
-    margin:0 auto;
-    height:5rem;
-    display:inline-block;
-    font-size:1.6rem;
-    font-weight:600;
-    transform:translateX(-6.7em);
-
-}
-ul>li>a{
-    color:black;
-    padding:.5rem;
-    line-height:4.3rem;
-    text-decoration:none;
-    text-transform:uppercase;
- 
-}
-ul>li>a:hover{
-    color:#7a1501;
+a{
+    display: inline-block;
     text-decoration: none;
-    
 }
-#cohort_active a{
-    color:#7a1501;
+
+#index_label{
+    background-color:white;
 }
-.active a{
-    color:#7a1501;
-    padding:1.5rem;
-    background-color:#f9da0c;
+
+header{
+    margin:0;
+    padding:0;
+    width:100%;
+    height: 5rem;
+    background-color:white;
 }
-main{
-    display:block;
-    margin: 0% 15% 0% 15%;
-    height: auto;
-    text-align: center;
-    font-size: 1.7rem;
-}
-#first_article{
-    display:block;
-    text-align: left;
-}
-p{
-    display:block;
-    text-align: left;
-}
-ol{
-    display:inline;
+
+header nav{
+    height: 100%;
+    width:100%;
     margin:0 auto;
-    width:40;
-    line-height:1.5;
-    float:left;
-    height:23rem;;
-    text-align: left;
-}
-div ol{
-    display:block;
-    float:left;
-    width:100%;
-    height: auto;
-}
-ol li{
-    text-align:left;
-}
-
-
-/*COHORT PIC BEGINS HERE*/
-
-h2{
-    color:#fff;
-    
-}
-.panel-collapse{
-    width:100%;
-    height:auto;
-    
-}
-.panel-body{
-    width:calc(100%/4);
-    height:auto;
-    display:block;
-    float:left;
-    background-repeat:no-repeat;
-}
-
-/*COMMENCE BUTTON HERE*/
-
-.btn{
-    color:#000;
-    width:100%;
-    background-color:#f9da0c;
-    text-align:left;
-}
-#demo{
-    color:#000;
-    width:100%;
-    background-color:#fff;
-    text-align:left;
     display:block;
 }
 
-.cohort_img{
-    width:calc(100%/4);
-    padding:1em;
+/*  bars is input id */
+
+#bars{
+    display: none;
+}
+input{
+    display: none;
+}
+
+header nav ul{
+    width:55rem;
+    height:100%;
+}
+
+header nav ul li{
+    font-size: 1.3rem;
     display:inline-block;
+    height:100%;
+    margin:0;
+    padding:0;
+    font-weight: 600;
+}
 
+header nav ul li:hover{
+    background-color:#F9DA0C;
 }
-.collapse img{
+
+header nav ul li:nth-child(1){
+    width:12%;
+}
+header nav ul li:nth-child(2){
+    width:14%;
+}
+header nav ul li:nth-child(3){
+    width:18%;
+}
+header nav ul li:nth-child(4){
+    width:13%;
+}
+
+/* sign up link needed to be added */
+
+header nav ul li:nth-child(5){
+    width:11%;
+    background-color:#F9DA0C;
+    font-size:1.2rem;
+}
+
+header nav ul li:nth-child(6){
+    width:10%;
+}
+
+header nav ul li:nth-child(7){
+    width:14%;
+}
+
+header nav ul li a{
+    color:black;
+    text-transform: uppercase;
+    height: 100%;
     width:100%;
-    
 }
-h5{
-    color:#000;
-    width:26.5rem;
-    text-align:center;
+
+header nav ul li a span{
+    position: relative;
+    top:1.3rem;
 }
-.individual_text{
+
+#yellow{
+    color:#7A1501;
+    font-weight: 600;
     font-size:1.3rem;
-    color:#000;
-    padding:1rem;
-    width:26.5rem;
-    display:block;
 }
-#red{
-    display:inline-block;
+
+#navbar_hidden{
+    display: none;
+}
+
+/* start main section */
+
+main{
+    margin:0;
+    padding:0;
+    width:auto;
+    height: auto;
+    background-color:white;
+}
+
+main img{
+    width:auto;
+    margin-bottom: 5px;
+}
+
+/* end of main section */
+
+/* start footer section */
+
+footer{
+    background-color:#7A1501;
+    display: block;
     margin:0 auto;
-    width:100%/4;
+    text-align: center;
+    color:white;
+    height:auto;
+    padding-bottom: 5rem;
 }
-#two{
+
+.fluff{
+    width:70%;
+    display:inline-block;
+    font-size:3rem;
+}
+
+@font-face {
+    font-family: 'franchise';
+    src: url('../fonts/franchise-bold-webfont.woff');
+}
+
+#h3_1{
+    text-transform: uppercase;
+    margin:0;
+    padding:0;
+    font-family:'franchise';
+    padding-top:3rem
+}
+
+@font-face {
+    font-family: 'ciria';
+    src: url('../fonts/ciria-bold.woff');
+}
+
+#h3_2{
+    margin:0;
+    padding:0;
+    font-family: 'ciria';
+}
+
+#divider{
+    width:60%;
+    display: inline-block;
+}
+
+.links{
+    display: inline-block;
+    width:70%;
+    height:auto;
+}
+
+/* this part targets the three icons images at the bottom */
+
+.links p:nth-child(1){
+    width:calc(99%/3);
+    float: left;
+    border-right: 1px solid white;
     display:block;
-    float:left;
+    margin:0 auto;
+    height:8rem;
+}
+.links p:nth-child(2){
+    width:calc(99%/3);
+    float: left;
+    border-right: 1px solid white;
+    display:block;
+    margin:0 auto;
+    height:8rem;
+}
+.links p:nth-child(3){
+    width:calc(99%/3);
+    float: right;
+    display:block;
+    margin:0 auto;
+    height:8rem;
+}
+
+.link_images{
+    display: block;
+    margin:0;
+}
+
+.link_images a{
+    width:auto;
+    color:white;
+}
+
+/* end of: this part targets the three icons images at the bottom */
+
+.link_images span{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin:0;
+    padding:0;
+    display: inline-block;
+    height:1.5rem;
+    width:100%;
+}
+
+/* start of media query, display nav bar as blocks and not inline */
+
+@media only screen and (max-width:767px){
+    
+    
+header{
+    height: 30rem;
+    display: none;
+}
+    
+    /* added label and input to create a menu icon making user friendly.  dropdown should appear when input checkbox (displayed as none) is checked */
+    
+    label{
+        display: block;
+        height: 12%;
+    }
+    
+    #bars{
+        display: inline-block;
+        width:6%;
+        float: right;
+        border:1px solid lightgrey;
+        opacity:.3;
+        margin:1.4rem 1.4rem 0 0;
+        border-radius:5px;
+    }
+    label > img:hover{
+        background-color:grey;
+    }
+    
+    input:checked + header{
+        display:block;
+    }
+    
+    /* made width to ul 100% so that each list item (menu item) will display as one on top of the other */
+    
+header nav ul{
+    width:100%;
+}
+
+header nav ul li{
+    display:inline-block; 
+    height:calc(100%/7);
+}
+
+header nav ul li:nth-child(1){
+    width:100%;
+    height:4rem;
+    border-top:1px solid lightgrey;
+    
+}
+header nav ul li:nth-child(2){
+    width:100%;
+    height:4rem;
+}
+header nav ul li:nth-child(3){
+    width:100%;
+    height:4rem;
+}
+header nav ul li:nth-child(4){
+    width:100%;
+    height:4rem;
+}
+header nav ul li:nth-child(5){
+    width:100%;
+    background-color:white;
+    height:4rem;
+}
+header nav ul li:nth-child(6){
+    width:100%;
+    height:4rem;
+}
+header nav ul li:nth-child(7){
+    width:100%;
+    height:4rem;
+}
+
+header nav ul li a{
+    margin:0;
+    padding:0;
+    height:100%;
+    width:20%;
+    font-weight: 600;    
+}
+    
+    header nav ul li a:hover{
+        background-color:#F9DA0C;
+    }
+    
+/* yellow is id for sign up link */
+    
+    #yellow{
+        display: inline-block;
+        height: 100%;
+        width: 20%;
+        background-color:#F9DA0C;
+    }
+    
+    header nav ul li span:hover{
+    background-color:#F9DA0C;
+}
+    header nav ul li:hover{
+    background-color:white;
+}
+    
+    main img{
+        width:100%;
+    }
+    
+/* adjusting link images and text below it to work for media query */    
+    
+    footer{
+        height: auto;   
+    }
+    
+.links{
+    width:100%;
+}
+
+    
+.link_images span{
+    font-size: 1.3rem;
+    width:100%;
+}
+
+    
 }
