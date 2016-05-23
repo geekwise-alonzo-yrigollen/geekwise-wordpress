@@ -28,11 +28,62 @@ main{
     margin: 20px; 
     width: 95%;
 }
-nav{
+
+
+/*COMMENCE NAVIGATION STYLES*/
+
+#imag{
     
-    position: relative;
-    top:-100px;
+    transform:translateY(-4em);
+    margin-left:6em;
+    
+    
 }
+
+.nav{
+    
+    display:block;
+    margin:0 auto;
+    position: relative;
+    text-align:center;
+    background-color:white;
+    width:65.5%;
+    
+}
+
+ul{
+    
+    margin:0 auto;
+    display:inline-block;
+    padding:1em;
+
+}
+
+li{
+    
+    display:inline-block;
+    margin:0 auto;
+    padding:1em;
+    
+}
+
+ul li a{
+    
+    font-size:1.3em;
+    color:#7a1501;
+    text-decoration:none;
+
+}
+#menu-item-162{
+    
+    background-color:yellow;
+    font-weight:700;
+}
+
+
+
+
+
 #img_logo{
     
     display:none;

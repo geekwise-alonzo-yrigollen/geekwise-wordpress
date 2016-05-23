@@ -19,8 +19,8 @@
 	<!--COMMENTED OUT THIS PHP SNIPPET AS IT WAS INTERFERRING WITH MULTIPLE PAGES-->
 	
 		<script>
-        // conditionizr.com
-        // configure environment tests
+        conditionizr.com
+        configure environment tests
         
         conditionizr.config({
             assets: '<?php echo get_template_directory_uri(); ?>',
@@ -31,7 +31,7 @@
   </head>
 
 
-<body>
+<body <?php body_class(); ?>>
      
      <header id="header">
        
