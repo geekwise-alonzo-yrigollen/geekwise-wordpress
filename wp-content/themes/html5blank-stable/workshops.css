@@ -62,6 +62,24 @@ li a{
     padding:.5em;
     text-transform:uppercase;
 }
+.text{
+    
+    text-align:left;
+    margin:0 auto;
+    display:block;
+    
+}
+hr{
+    
+    width:100%;
+    transform:translateY(.5em);
+}
+h5{
+    display:block;
+    text-align:left;
+    
+}
+
 .logo{
     
     transform:translateY(-3em);
@@ -72,7 +90,11 @@ li a{
 #pro{
     
     margin:0 auto;
+    display:block;
+    font-size:14px;
+    width:100%;
     text-align:left;
+    
     
     
 }
@@ -82,7 +104,6 @@ h5{
 h3{
     position: relative;
     top:-17px;
-
     color: black;
     float: left;
     font-size: 17px;
@@ -99,10 +120,14 @@ h3{
     margin-top:-50px;
 }
 p{
-    text-align: left;
+    
+    margin:0 auto;
+    text-align:left;
+    
 }
 hr{
-    position: absolute;
+    position:absolute;
+    width:78%;
     
 }
 .about_nav{
@@ -117,6 +142,7 @@ hr{
     color: white;
     position: relative;
     left: -130px;
+    
 }
 .head_wrap{
     width: 150vh;
@@ -156,9 +182,9 @@ a:hover{
     margin-left: 40px;
 }
 .text{
-   position: relative;
+    position relative;
     top:-50px;
-   margin: 100px;
+    margin:0 auto;
     width: 76%;
 }
 /* footer workshop page */
