@@ -75,6 +75,7 @@ ul li a{
     text-decoration:none;
 
 }
+
 .photos_cohort{
     
     width:220px;
@@ -205,6 +206,7 @@ h5{
     margin-left: 0px;
     display: block;
     width: 80%;
+    transform:translateX(7.9em);
 }
 /* checkbox hidden */
 
@@ -217,11 +219,15 @@ h5{
     
     display: block;  
     display: none;
+    /*transform:translateX(-8em);*/
 }
 
 #toggle:checked~table{
    display: block;
    
+}
+#toggle2:checked~table{
+    display:block;
 }
 
 
