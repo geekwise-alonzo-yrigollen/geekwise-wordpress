@@ -46,11 +46,11 @@
             	 <a href="/contact.php?page_id=16"></a>
             </nav>
     
-          <span>
-              <a href="index.html">
-                  <img class="logo" src="http://geekwiseacademy.com/img/logo-geekwise_small-black.png">
+           <span class="logo">
+              <a href="/index.php?page_id=29">
+                  <img id="imag" src="http://i.imgur.com/EXCIxXZ.png">
               </a>
-          </span>
+           </span>
            <!--<label class="fa fa-bars list" for="bars"></label>-->
            
 <!--          <input type="checkbox" id="bars">-->
