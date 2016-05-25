@@ -283,12 +283,14 @@ b{
 footer{
     
     margin:0 auto;
-    width:35%;
+    width:30%;
     height:50%;
-    line-height:1em;
-    font-size:19px;
+    font-size:20px;
     background-color:#f9da0c;
     transform:translateY(1em);
+}
+footer span #seating{
+    translate:transformX(-1em);
 }
 
 h3{

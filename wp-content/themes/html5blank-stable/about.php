@@ -58,13 +58,14 @@
 
               <h2>DETAILS</h2>
              
-            <span id="p"><b>Length:</b>Each course lasts 6 weeks
+            <span id="p"><p><b><br>Length: </b>Each course lasts 6 weeks</p>
 
-            <b>Time:</b>Each course meets from 6:00-9:00p, two nights per week
+            <p><b><br>Time: </b>Each course meets from 6:00-9:00p, two nights per week</p>
 
-            <b>Location:</b>All Classes meet at Bitwise Mural District (2210 San Joaquin St., Fresno, CA 93721)
+            <p><b><br>Location: </b>All Classes meet at Bitwise (700 Van Ness Ave
+Fresno, California 93721)</p>
 
-            <b>Cost:</b>Each class costs only $250</span>
+            <p><b><br>Cost: </b>Each class costs only $250</p></span>
     
           </div>
     

@@ -119,5 +119,5 @@
         
 <!--        COMMENCE BUTTON-->
       <footer>
-        <span>seating is limited, signup today</span>
+        <span id="seating">seating is limited, signup today</span>
       </footer>
