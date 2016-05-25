@@ -10,7 +10,8 @@
         <link href="<?php echo get_template_directory_uri(); ?>/img/icons/touch.png" rel="apple-touch-icon-precomposed">
         
         <link href="<?php echo get_template_directory_uri(); ?>/workshops.css" rel="stylesheet">
-        <link rel="icon" type="image/png" href="http://geekwiseacademy.com/img/geekwise-favicon.png" href="index.html">
+        
+        
         
 
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
