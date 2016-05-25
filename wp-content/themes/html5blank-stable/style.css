@@ -1,177 +1,3 @@
-*,
-*:after,
-*:before {
-	-moz-box-sizing:border-box;
-	box-sizing:border-box;
-	-webkit-font-smoothing:antialiased;
-	font-smoothing:antialiased;
-	text-rendering:optimizeLegibility;
-}
-/*html,body{*/
-/*    margin: 0;*/
-/*    padding: 0;*/
-    
-/*}*/
-
-/*HOME PAGE BODY IS HERE*/
-
-/*body{*/
-/*    margin: 0;*/
-/*    padding: 0;*/
-/*}*/
-/*.fa{*/
-/*    visibility:hidden;*/
-/*}*/
-
-/*BELOW HEADER HAS AN ID="STAY"*/
-
-/*BELOW NAV HAS AN ID="topbar"*/
-
-/*header{*/
-/*    display:block;*/
-/*    padding:0;*/
-    
-/*}*/
-/*.nav{*/
-    
-/*    display:block;*/
-/*    margin:0 auto;*/
-/*    float:right;*/
-/*    transform:translateX(-22em);*/
-    
-/*}*/
-/*#bars{*/
-    
-/*    display:none;*/
-    
-/*}*/
-
-/*#topbar{*/
-/*    display:flex;*/
-/*    justify-content:center;*/
-
-/*}*/
-
-/*UL IS DISPLAYED BLOCK */
-
-/*ul{*/
-/*    display:block;*/
-/*    list-style:none;*/
-/*    line-height:1rem;*/
-/*}*/
-
-/*LI DISPLAY INLINE-BLOCK MAKES LIST INDIVIDUALLY BOXED IN A HORIZONTAL LINE*/
-
-/*li{*/
-/*    padding:1rem;*/
-/*    display:inline-block;*/
-/*    float:left;*/
-/*    font-size:.8rem;*/
-/*    font-weight:600;*/
-/*    text-transform:uppercase;*/
-/*    transform:translateY(-1.3em);*/
-/*}*/
-/*li:hover{*/
-/*    color:#7a1501;*/
-/*    background-color:#f9da0c;*/
-/*}*/
-
-/*ACTIVE CLASS REFERS TO THE SIGN UP BUTTON*/
-
-/*.active{*/
-    
-/*    background-color:#f9da0c;*/
-
-/*}*/
-
-/*.active > a{*/
-/*    color:#7a1501;*/
-/*}*/
-
-/*a{*/
-/*    text-decoration:none;*/
-/*    color:black;*/
-/*}*/
-
-/*BELOW WILL MAKE YOUR ANCHOR TAG HOVER RED*/
-
-/*a:hover{*/
-/*    display:block;*/
-/*    color:#7a1501;*/
-/*}*/
-
-/*.geekwise{*/
-/*    margin:0 auto;*/
-/*    display:block;*/
-/*    text-align:center;*/
-/*    transform:translateY(2.5em);*/
-    
-/*}*/
-
-/*.vertical-divider{*/
-/*    color:#fff;*/
-/*}*/
-
-/*h2{*/
-/*    position:relative;*/
-/*    top:30px;*/
-/*    font-family:"franchise";*/
-/*    font-size: 2.0em;*/
-/*    text-align:center;*/
-/*    margin:40px auto 0px auto;*/
-/*    color:white;*/
-/*    text-transform:uppercase;*/
-/*}*/
-
-/*h3{*/
-/*    position:relative;*/
-/*    top:30px;*/
-/*    font-family:"ciria";*/
-/*    font-size:2.0em;*/
-/*    font-weight:100;*/
-/*    text-align:center;*/
-/*    padding-bottom:1em;*/
-/*    margin:0 auto;*/
-/*    width:59%;*/
-/*    border-bottom: solid white .5px; */
-/*    color:white;*/
-/*    text-transform:lowercase;*/
-/*}*/
-
-
-/*THIS IS WHERE THE HEADER ENDS AND MAROONISH COLOR BEGINS AT BOTTOM*/
-
-/*.bottom{*/
-/*    height:400px;*/
-/*    background-color:#7A1501; */
-/*}*/
-/*.wp-image-181{*/
-/*     border-right:solid white .5px;*/
-/*     padding-right:7em;*/
-/*}*/
-/*.wp-image-182{*/
-/*    padding:3em;*/
-/*    transform:translateY(-3.3em);*/
-/*}*/
-/*.wp-image-180{*/
-    
-    
-/*    border-left:solid white .5px;*/
-/*    padding-left:9em;*/
-    
-    
-/*}*/
-
-/*.info-box{*/
-/*    position:relative;*/
-/*    top:30px;*/
-/*    display:block;*/
-/*    color:white;*/
-/*    float:left;*/
-/*    text-transform:uppercase;*/
-/*    transform:translateX(10em);*/
-/*    width:calc(55%/3);*/
-/*}*/
 html,body{
     margin: 0;
     padding: 0;
@@ -197,6 +23,14 @@ header{
     padding:0;
     height:25.3rem;
 }
+.nav{
+    display:block;
+    margin:0 auto;
+    width:100%;
+    text-align:center;
+    transform:translateX(20em);
+    
+}
 
 #topbar{
     display:flex;
@@ -210,6 +44,7 @@ ul{
     display:block;
     list-style:none;
     line-height:1rem;
+    text-align:center;
 }
 
 /*LI DISPLAY INLINE-BLOCK MAKES LIST INDIVIDUALLY BOXED IN A HORIZONTAL LINE*/
@@ -252,8 +87,10 @@ a:hover{
     color:#7a1501;
 }
 
-#geekwise{
+.geekwise{
     margin:0 auto;
+    display:block;
+    transform:translateY(2.2em);
     
 }
 
@@ -387,4 +224,3 @@ span>img{
     
     }
 }
-
