@@ -51,6 +51,13 @@ main{
     width:65.5%;
     
 }
+#text-content{
+    width:80%;
+    margin:0 auto;
+    display:block;
+    font-size:16px;
+    transform:translateY(1.1em);
+}
 
 ul{
     
@@ -58,6 +65,7 @@ ul{
     display:inline-block;
     padding:1em;
     transform:translateY(-1em);
+    
 
 }
 
@@ -65,15 +73,17 @@ li{
     
     display:inline-block;
     margin:0 auto;
-    padding:1em;
+    padding:.7em;
     
 }
 
 ul li a{
     
-    font-size:1.3em;
-    color:#7a1501;
+    font-size:14px;
+    color:#000;
+    font-weight:700;
     text-decoration:none;
+    text-transform:uppercase;
 
 }
 
@@ -125,7 +135,7 @@ ol{
     text-align: center;
     clear:both;
     display:block;
-    text-transform: capitalize;
+    
     
 }
 ol>li{
@@ -136,11 +146,13 @@ ol>li{
     text-align:left;
 }
 #what{
-    color: black;
-    position: relative;
+    color:black;
+    position:relative;
     top:-10px;
-    font-weight: bold;
-    text-align: center;
+    font-weight:bold;
+    font-size:20px;
+    text-align:center;
+    text-transform:uppercase;
 }
 p{
     font-weight: bold;

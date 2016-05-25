@@ -4,7 +4,7 @@
 
 <!--      COMMENCE MAIN ELEMENT-->
        
-     <section> 
+     <section id='text-content'> 
            
     <?php if (have_posts()) : ?>
     <?php while (have_posts()) : the_post(); ?>
@@ -26,10 +26,11 @@
       <li class="number">5. Driven to succeed, able to learn, and receive criticism</li>
       </ol>
         
-      </section>
-      <div>
+         <div>
            <p>Bitwise Industries is excited about this new adventure that kicks off on January 12, 2015. We look forward to mentoring the next generation of technliogists in Fresno.</p>
-      </div>
+      </div><br>
+      </section>
+     
       
       <div class="container">
       <div class="cohorts">
