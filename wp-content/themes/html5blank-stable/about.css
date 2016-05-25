@@ -26,14 +26,15 @@ body{
 header{
     margin:0 auto;
     width:100%;
-    height:16rem;  
+    height:26rem;  
     display:block;
     background-color:white;
     background-image:url("http://i.imgur.com/OpvA4Rr.jpg");
+    
     background-repeat:no-repeat;
     
 }
-nav{
+.nav{
     
     height:4rem;
     display:block;
@@ -53,7 +54,7 @@ nav{
 #imag{
     width:13rem;
     height:5rem;
-    transform:translateY(-.77em);
+    transform:translateY(3em);
     
 }
 
@@ -92,7 +93,7 @@ a:hover{
     width:7.5rem;
     background-color:#f9da0c;
     margin-left:53rem;
-    transform:translateY(5.2em);
+    transform:translateY(13em);
     line-height:4rem;
     font-size:16px;
     color:#7a1501;
