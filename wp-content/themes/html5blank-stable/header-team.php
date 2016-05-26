@@ -59,7 +59,7 @@
             
     
             	
-            <span class="logo">
+            <span class="logo workshops">
               <a href="/index.php?page_id=29">
                   <img id="imag" src="http://i.imgur.com/EXCIxXZ.png">
               </a>
