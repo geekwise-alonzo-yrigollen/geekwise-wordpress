@@ -57,62 +57,15 @@
             	 <a href="/team.php?page_id=14"></a>
             	 <a href="/contact.php?page_id=16"></a>
             
-    
+            </nav>
             	
-            <span class="logo workshops">
+            <span class="logo">
               <a href="/index.php?page_id=29">
                   <img id="imag" src="http://i.imgur.com/EXCIxXZ.png">
               </a>
             </span>
             
             	
-         </nav>
-    
-        
-        
-<!--        LOGO SPAN TAG ENDS HERE-->
-         
-<!--         COMMENCE NAV BAR ELEMENTS BELOW-->
-          
-           <!--<ul>-->
-              
-           <!--    <li>-->
-           <!--        <a href="about.html">About</a>-->
-           <!--    </li>-->
-           <!--    <li>-->
-           <!--        <a href="courses.html">Courses</a>-->
-           <!--    </li>-->
-           <!--    <li>-->
-           <!--        <a href="workshops.html">Workshops</a>-->
-           <!--    </li>-->
-           <!--    <li>-->
-           <!--        <a href="cohort.html">Cohort</a>-->
-           <!--    </li>-->
-           <!--    <li id="active_team">-->
-           <!--        <a href="team.html">Team</a>-->
-           <!--    </li>-->
-           <!--    <li>-->
-           <!--        <a href="contact.html">Contact</a>-->
-           <!--    </li>-->
-           <!--    <li class="active">-->
-           <!--        <a href="signup.html">Sign Up</a>-->
-           <!--    </li>-->
-               
-           <!--</ul>-->
-            
-<!--            END NAV BAR ELEMENTS-->
-            
-            
-<!--            UPPER RIGHT IMAGE BELOW ELEMENT-->
-            
-             <span>
-                 <img src="http://i.imgur.com/nROlUCJ.png">
-             </span>
-             
-<!--             UPPER RIGHT IMAGE ***END***-->
-             
-        <!--</nav>-->
-        
 <!--              COMMENCE MAIN CENTER TEXT ELEMENT-->
               
                <span>
