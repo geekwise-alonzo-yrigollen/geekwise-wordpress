@@ -7,6 +7,7 @@
 	font-smoothing:antialiased;
 	text-rendering:optimizeLegibility;
 }
+
 html, body{
     margin:0 auto;
     padding:0;
@@ -23,6 +24,7 @@ body{
     font-family:sans-serif;
 
 }
+
 header{
     margin:0 auto;
     width:100%;
@@ -30,10 +32,10 @@ header{
     display:block;
     background-color:white;
     background-image:url("http://i.imgur.com/OpvA4Rr.jpg");
-    
     background-repeat:no-repeat;
     
 }
+
 .nav{
     
     height:4rem;
@@ -51,6 +53,7 @@ header{
     float:left;
 
 }
+
 #imag{
     width:13rem;
     height:5rem;
@@ -114,13 +117,27 @@ h1{
     width:33rem;
     transform:translateY(-2rem);
 }
-
-main{
-    height:80rem;
-    width:100%;
-    padding:3em;
-    background-color:#7a1501;
+#main_section{
+    
+    line-height:5.5em;
+    font-size:55.2%;
+    
 }
+/*#main_section{*/
+/*    width:auto;*/
+/*    float:left;*/
+/*    position:relative;*/
+/*    background-image:url("http://i.imgur.com/OpvA4Rr.jpg");*/
+/*    background-repeat:no-repeat;*/
+/*    transform:translateY(-22em);*/
+/*}*/
+
+/*main{*/
+/*    height:80rem;*/
+/*    width:100%;*/
+/*    padding:3em;*/
+/*    background-color:#7a1501;*/
+/*}*/
 
 section{
     display:block;
@@ -163,13 +180,13 @@ p{
     margin:0 auto;
     display:block;
     color:white;
-    font-size: 1.9rem
+    font-size:3.3em;
 }
 #p{
     margin:0 auto;
     display:block;
     color:white;
-    font-size: 2rem
+    font-size:1em;
 }
 h3>#ask{
     
