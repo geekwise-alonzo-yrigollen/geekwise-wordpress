@@ -45,7 +45,7 @@ header{
     width:15rem;
     height:5rem;
     float:left;
-    transform:translateX(-11em);
+    
     
 }
 
@@ -65,9 +65,7 @@ header{
     
     
 }
-.logo{
-    transform:translateY(-4em);
-}
+
 
 em{
     display:block;
@@ -215,11 +213,11 @@ h2{
 
 #imag{
     
-    margin:0 auto;
-    display:block;
-    transform:translateX(-13em);
-    transform:tranlateY(-4em);
-    
+ margin:0 auto;
+ display:block;
+ text-align:center;
+ width:100%;
+
 }
 #second{
     
