@@ -68,6 +68,7 @@ header{
 .logo{
     transform:translateY(-4em);
 }
+
 em{
     display:block;
     margin:0 auto;
@@ -75,6 +76,7 @@ em{
     
     
 }
+
 ul{
     
     display:block;
@@ -84,10 +86,12 @@ ul{
     
     
 }
+
 li{
     padding-top:1em;
     display:inline-block;
 }
+
 li a{
     color:#fff;
     text-transform:uppercase;
@@ -97,6 +101,7 @@ li a{
     text-decoration:none;
     
 }
+
 li a:hover{
     color:#f9da0c;
 }
@@ -106,6 +111,7 @@ li a:hover{
     line-height:4.5rem;
 
 }
+
 .sign{
     background-color:#f9da0c;
 }
@@ -125,6 +131,7 @@ li a:hover{
     color:#f9da0c;
     
 }
+
 .active_page a {
     
     color:#f9da0c;
@@ -134,6 +141,7 @@ li a:hover{
     color:#7a1501;
     background-color:#f9da0c;
 }
+
 .sign a:hover{
     color:#7a1501;
 }
@@ -176,6 +184,14 @@ main{
     height: auto;
     
 }
+em{
+    margin:0 auto;
+    display:block;
+    width:100%;
+    transform:translateX(-6.3em);
+    
+}
+
 p{
     
     font-size:1.2rem;
