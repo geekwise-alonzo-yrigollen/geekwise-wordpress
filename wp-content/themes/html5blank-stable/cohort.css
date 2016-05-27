@@ -29,7 +29,12 @@ main{
     width: 95%;
     font-size:1em;
 }
-
+menu-item-163{
+    margin:0 auto;
+    display:block;
+    color:yellow;
+    
+}
 
 /*COMMENCE NAVIGATION STYLES*/
 
@@ -49,6 +54,12 @@ main{
     text-align:center;
     background-color:white;
     width:65.5%;
+    
+}
+#cohort-nav{
+    
+    color:red;
+    
     
 }
 #text-content{

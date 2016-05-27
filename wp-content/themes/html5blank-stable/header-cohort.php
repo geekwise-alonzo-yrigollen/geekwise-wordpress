@@ -42,7 +42,9 @@
             	 <a href="/index.php?page_id=4"></a>
             	 <a href="/courses.php?page_id=6"></a>
             	 <a href="/workshops.php?page_id=8"></a>
-            	 <a href="/cohort.php.php?page_id=10"></a>
+            	 <span id='cohort-nav'>
+            	     <a href="/cohort.php.php?page_id=10"></a>
+            	 </span>
             	 <a href="/signup.php.php?page_id=12"></a
             	 <a href="/team.php?page_id=14"></a>
             	 <a href="/contact.php?page_id=16"></a>
@@ -52,11 +54,11 @@
 <!--       COMMENCE NAV BAR -->
         <!--<nav>-->
         
-            <span class="logo">
-              <a href="/index.php?page_id=29">
-                  <img id="imag" src="http://i.imgur.com/EXCIxXZ.png">
-              </a>
-            </span>
+        <!--    <span class="logo">-->
+        <!--      <a href="/index.php?page_id=29">-->
+        <!--          <img id="imag" src="http://i.imgur.com/EXCIxXZ.png">-->
+        <!--      </a>-->
+        <!--    </span>-->
           
         <!--   <ul>-->
                 
