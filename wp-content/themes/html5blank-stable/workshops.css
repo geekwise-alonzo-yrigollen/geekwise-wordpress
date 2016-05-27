@@ -208,6 +208,19 @@ h2{
     font-size:1.4rem;
     border-bottom:solid .03rem;
 }
+
+
+/****IMAGE LOGO HERE****/
+
+
+#imag{
+    
+    margin:0 auto;
+    display:block;
+    transform:translateX(-13em);
+    transform:tranlateY(-4em);
+    
+}
 #second{
     
     display:block;
