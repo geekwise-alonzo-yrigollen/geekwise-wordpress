@@ -40,8 +40,20 @@ menu-item-163{
 
 #imag{
     
-    transform:translateY(-4em);
-    margin-left:6em;
+    display:block;
+    width:2em;
+    
+    
+    
+}
+.logo{
+    
+    margin:0 auto;
+    display:block;
+    width:100%;
+    font-size:4em;
+    transform:translateY(-1.1em);
+    padding-left:3em;
     
     
 }
@@ -131,6 +143,8 @@ table{
 
 #img_logo{
     
+    margin:0 auto;
+    width:2em;
     display:none;
 }
 
