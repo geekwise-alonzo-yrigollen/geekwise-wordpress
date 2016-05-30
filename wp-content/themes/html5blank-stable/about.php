@@ -10,6 +10,11 @@
         <!--<img src="http://i.imgur.com/ur0IVmP.png"></img>-->
         
     </span>
+    <div id='cover'>
+        <p>
+            
+        </p>
+    </div>
     
     
     
@@ -25,7 +30,9 @@
      
      
 <!--     COMMENCE FIRST SECTION LEFT-->
-     
+     <span id='own'>
+         <img src="http://i.imgur.com/OpvA4Rr.jpg");></img>
+     </span>
       <section>
         
 <!--        COMMENCE FIRST ARTICLE-->
