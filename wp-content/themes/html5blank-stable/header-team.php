@@ -45,8 +45,6 @@
         
 <!--        LOGO SPAN TAG HERE-->
         
-        
-        
           <nav class="nav" role="navigation">
             	<?php html5blank_nav(); ?>
             	 <a href="/index.php?page_id=4"></a>
@@ -68,9 +66,13 @@
             	
 <!--              COMMENCE MAIN CENTER TEXT ELEMENT-->
               
-               <span>
+               <div id='team'>
                    <h1>the team</h1>
-               </span>
+                <span id='owl'>
+                    <img src="http://geekwiseacademy.com/img/owl-team.png"></img>
+                </span>
+    
+               </div>
                
 <!--               MAIN CENTER TEXT ***END***-->
                
