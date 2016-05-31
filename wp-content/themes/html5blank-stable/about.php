@@ -10,14 +10,11 @@
         <!--<img src="http://i.imgur.com/ur0IVmP.png"></img>-->
         
     </span>
+    
+    
     <div id='cover'>
-        <p>
-            
-        </p>
-    </div>
-    
-    
-    
+     
+ 
 <main id="main_section">
      
     <?php if (have_posts()) : ?>
@@ -26,9 +23,6 @@
     <?php endwhile; ?>
     <?php endif; ?>
 
-
-     
-     
 <!--     COMMENCE FIRST SECTION LEFT-->
      <span id='own'>
          <img src="http://i.imgur.com/OpvA4Rr.jpg");></img>
@@ -84,6 +78,8 @@ Fresno, California 93721)</p>
  
 <!-- SECTION ***END***-->
   </main>
+  
+     </div>
 <!--  MAIN ELEMENT ***END***-->
 
 <!--COMMENCE FOOTER ELEMENT-->
