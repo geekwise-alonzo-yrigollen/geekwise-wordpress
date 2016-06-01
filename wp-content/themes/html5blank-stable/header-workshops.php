@@ -11,7 +11,7 @@
         
         <link href="<?php echo get_template_directory_uri(); ?>/workshops.css" rel="stylesheet">
         
-        
+        <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
         
 
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">

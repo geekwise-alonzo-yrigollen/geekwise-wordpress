@@ -155,6 +155,18 @@ function html5blank_styles()
     wp_enqueue_style('signup'); // Enqueue it!
 }
 
+// ***new function for fonts here SAM***
+
+function load_fonts() {
+            wp_register_style('fonts', get_template_directory_uri().'/fonts.css');
+            wp_enqueue_style( 'fonts');
+        }
+        
+ 
+
+// ***new font end***
+
+
 // Register HTML5 Blank Navigation
 function register_html5_menu()
 {
@@ -381,7 +393,8 @@ add_action('init', 'register_html5_menu'); // Add HTML5 Blank Menu
 add_action('init', 'create_post_type_html5'); // Add our HTML5 Blank Custom Post Type
 add_action('widgets_init', 'my_remove_recent_comments_style'); // Remove inline Recent Comment Styles from wp_head()
 add_action('init', 'html5wp_pagination'); // Add our HTML5 Pagination
-
+add_action('fonts', 'load_fonts');
+   
 // Remove Actions
 remove_action('wp_head', 'feed_links_extra', 3); // Display the links to the extra feeds such as category feeds
 remove_action('wp_head', 'feed_links', 2); // Display the links to the general feeds: Post and Comment Feed
