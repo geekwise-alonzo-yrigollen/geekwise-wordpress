@@ -12,7 +12,7 @@
              
        <main>
    
-           <p>
+           <p= id='content'>
              Geekwise Academy was founded on the belief that we, as in the world, can do a whole lot better than we presently are in educating technologists. To accomplish that, we needed to assemble a team of people who know what they’re talking about. Here’s what we came up with.
            </p>
        
