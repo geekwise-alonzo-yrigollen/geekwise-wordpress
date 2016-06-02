@@ -1,0 +1,10 @@
+			@font-face {
+				font-family: 'ciria';
+				font-style: normal;
+				src: url('//geekwise-wordpress-geekwisealonzoyrigollen-1.c9users.io/wp-content/uploads/useanyfont/160602041112ciria.eot');
+				src: local('ciria'), url('//geekwise-wordpress-geekwisealonzoyrigollen-1.c9users.io/wp-content/uploads/useanyfont/160602041112ciria.eot') format('embedded-opentype'), url('//geekwise-wordpress-geekwisealonzoyrigollen-1.c9users.io/wp-content/uploads/useanyfont/160602041112ciria.woff') format('woff');
+			}
+						h3{
+					font-family: 'ciria' !important;
+				}
+		

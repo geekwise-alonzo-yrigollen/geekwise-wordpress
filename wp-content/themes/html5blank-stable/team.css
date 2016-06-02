@@ -56,15 +56,13 @@ span>img{
     
     display:block;
     margin:0 auto;
-    position:inherit;
+    position:relative;
+    z-index:2;
     text-align:center;
     background-color:#fff;
     width:60%;
-    height:6em;
-    /*margin:0 auto;*/
-    /*display:block;*/
-    /*width:80%;*/
-    /*text-align:right;*/
+    height:auto;
+   
 }
 .team-member-icon{
     
@@ -73,13 +71,13 @@ span>img{
     width:calc(100%/4);
     
 }
-.logo{
+/*.logo{*/
     
-    margin:0 auto;
-    display:block;
-    transform:translateY(3);
+/*    margin:0 auto;*/
+/*    display:block;*/
+/*    transform:translateY(3);*/
     
-}
+/*}*/
 
 #team{
     
@@ -156,10 +154,10 @@ h1{
 }
 #owl{
     
-    margin-left:61em;
+    margin-left:68em;
     display:block;
     z-index:-2;
-    position:absolute;
+    position:relative;
     transform:translateY(-22em);
     
     
@@ -202,7 +200,9 @@ main{
     
    margin:0 auto;
    float:left;
-   padding-left:10em;
+   position:relative;
+   z-index:2;
+   padding-left:13em;
    transform:translateY(-4.6em);
    
 }
