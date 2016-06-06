@@ -1,19 +1,6 @@
 <?php/*Template Name:  workshops */ ?>
 <?php get_header('workshops'); ?>
 
- <!--         COMMENCE TEXT SECTION-->
-         
-          <!--<span>-->
-          <!--    <p>-->
-          <!--      <em>-->
-          <!--          no fluff. we teach skills that you can use to make money.-->
-          <!--      </em>-->
-          <!--    </p>-->
-          <!--</span>-->
-          
-<!--          MAIN SECTION ***END***-->
-        
-     
 <!--      MAIN SECTION BEGIN-->
      <main>
 <!--     COMMENCE FIRST SECTION-->

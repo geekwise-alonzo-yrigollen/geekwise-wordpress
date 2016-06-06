@@ -16,7 +16,9 @@
        </h2>
        
        <h3>
-           we teach technology skills that you can use to make money<hr>   
+            <span id='teach'>
+               we teach technology skills that you can use to make money
+            </span><hr>   
        </h3>
        
        <!--MAIN TEXT ENDS HERE THAT IS BELOW THE IMAGE-->

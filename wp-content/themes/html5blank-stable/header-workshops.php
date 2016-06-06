@@ -39,6 +39,12 @@
      
      <header id="header">
        
+           <span class="logo">
+              <a href="/index.php?page_id=29">
+                  <img id="imag" src="http://i.imgur.com/EXCIxXZ.png">
+              </a>
+           </span>
+       
             <nav class="nav" role="navigation">
             	<?php html5blank_nav(); ?>
             	 <a href="/index.php?page_id=4"></a>
@@ -49,12 +55,7 @@
             	 <a href="/team.php?page_id=14"></a>
             	 <a href="/contact.php?page_id=16"></a>
             </nav>
-    
-           <span class="logo">
-              <a href="/index.php?page_id=29">
-                  <img id="imag" src="http://i.imgur.com/EXCIxXZ.png">
-              </a>
-           </span>
+            
            <!--<label class="fa fa-bars list" for="bars"></label>-->
            
 <!--          <input type="checkbox" id="bars">-->
