@@ -11,6 +11,7 @@
         
         <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
         
+        <link href="<?php echo get_template_directory_uri(); ?>/fonts.css" rel="stylesheet">
         
         <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico"/>
     
