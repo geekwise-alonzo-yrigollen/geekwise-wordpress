@@ -44,6 +44,7 @@ header{
     transform:translateX(24em);
     width:8rem;
     height:5rem;
+    padding:.2em;
     float:left;
 
 }
@@ -92,7 +93,8 @@ li a{
     text-transform:uppercase;
     font-size:16px;
     font-weight:700;
-    padding:1em;
+    padding:.8em;
+    padding-top:2em;
     text-decoration:none;
     
 }
