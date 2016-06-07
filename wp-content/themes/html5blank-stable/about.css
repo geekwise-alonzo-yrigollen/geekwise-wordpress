@@ -57,9 +57,11 @@ header{
 #imag{
     margin:0 auto;
     display:block;
-    transform:translateX(30em);
+    transform:translateX(25em);
     height:5em;
     width:13em;
+    font-size:1.4em;
+    
   
 }
 
