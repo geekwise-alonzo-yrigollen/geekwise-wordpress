@@ -233,16 +233,20 @@ h3>#ask{
     font-size:4rem;
 }
 footer{
+    
     width:100%;
     margin:0 auto;
-    height:3rem;
+    height:6.5em;
     background-color:#f9da0c; 
     transform:translateY(100em);
     
 }
-em{
+#em{
+    
     color:#7a1501;
-    font-size:2rem;
+    font-size:.6em;
+    font-weight:700;
+    line-height:50px;
     text-transform:uppercase
 }
 

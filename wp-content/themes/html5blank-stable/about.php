@@ -87,9 +87,9 @@ Fresno, California 93721)</p>
 <footer>
    
     <p>
-        <em>
-            want to geewise? sign up today!
-        </em>
+        <span id='em'>
+                want to geewise? sign up today!
+        </span>
         
     </p>
     
