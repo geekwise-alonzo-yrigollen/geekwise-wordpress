@@ -51,9 +51,10 @@
             	 <a href="/courses.php?page_id=6"></a>
             	 <a href="/workshops.php?page_id=8"></a>
             	 <a href="/cohort.php.php?page_id=10"></a>
-            	 <a href="/signup.php.php?page_id=12"></a
-            	 <a href="/team.php?page_id=14"></a>
             	 <a href="/contact.php?page_id=16"></a>
+            	 <a href="/team.php?page_id=14"></a>
+            	 <a href="/signup.php.php?page_id=12"></a>
+            	 
             
             </nav>
             	
