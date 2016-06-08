@@ -185,6 +185,7 @@ section{
     
     
 }
+
 #columnLeft{
     margin:0 auto;
     width:calc(85%/2);
@@ -194,6 +195,7 @@ section{
     display:block;
     font-size:1em;
 }
+
 #columnRight{
     margin:0 auto;
     text-align:left;
