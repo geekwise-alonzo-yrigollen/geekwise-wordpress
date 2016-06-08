@@ -50,8 +50,8 @@ body{
     
     display:block;
     margin:0 auto;
-    font-size:13px;
-    width:75%
+    font-size:15px;
+    width:73%
     
 }
 
@@ -67,6 +67,7 @@ body{
     
     
 }
+
 #imag{
     
     margin:0 auto;
@@ -115,6 +116,7 @@ a:hover{
     transition:background 2s;
     
 }
+
 .active>a{
     color:#7a1501;
     padding:1.3rem;
@@ -145,6 +147,7 @@ a:hover{
     
     
 }
+
 #geekwise{
     width:92%;
     margin:0 auto;
@@ -157,6 +160,7 @@ a:hover{
     transform:translateY(4.5em);
     
 }
+
 #align_left{
     width:100%;
     margin:0 auto;
@@ -177,16 +181,19 @@ a:hover{
     background-color:#f9da0c;
     
 }
+
 #menu-item-162 a{
     
     color:#7a1501;
     
 }
+
 #menu-item-163 a{
     
     color:#f9da0c;
     
 }
+
 .btn{
     width:4em;
     background-color:#f9da0c;
@@ -195,6 +202,7 @@ a:hover{
 #topic{
     padding-left:1.4em;
 }
+
 span p{
     
     margin:0 auto;
@@ -211,8 +219,11 @@ span p{
 /*old css*/
 
 table{
+    
+    margin:0 auto;
+    display:block;
     font-size:1.3rem;
-    width:80%;
+    width:70%;
     /*transform:translateY(-23rem)*/
 }
 .fa{
