@@ -5,15 +5,21 @@
        
    
         
-    <span id='on_click'>
-        <a href="Click here to checkout our STEM Summer Programs!">Button</a>
-    </span>
+   
     
             <?php while (have_posts()) : the_post(); ?>
             <?php the_content(); ?>
             <?php endwhile; ?>
 
     <table>
+        
+    <div id='on_click'>
+        <a href="Click here to checkout STEM Summer Programs">Click here to checkout STEM Summer Programs!</a>
+            <!--<span id='click'>-->
+            <!--    Click here to checkout our STEM Summer Programs!-->
+            <!--</span>-->
+
+    </div>
         <tr>
           <th id="topic" >Topic</th>
           <th >Duration</th>

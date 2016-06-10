@@ -51,6 +51,8 @@ body{
     display:block;
     margin:0 auto;
     font-size:15px;
+    padding:3em;
+    transform:translateY(7em);
     width:73%
     
 }
@@ -132,19 +134,61 @@ a:hover{
     margin:0 auto;
     float:left;
     width:40%;
+    margin-right:60em;
     transform:translateY(6rem);
 }
 
 /*paragraph starts here before the table*/
+#on_click a{
+    
+    color:rgb(249, 218, 12);
 
+}
 #on_click{
     
-    width:50%;
+    transform:translateY(8em);
+    width:60%;
+    height:2.5em;
+    margin:0 auto;
+    line-height:1em;
+    font-size:2em;
+    border-radius:3.3px;
+    background-color:#7a1501;
+    display:block;
+    padding:1.1em;
+    transform:translateY(-13em);
+
+    /*margin:0 auto;*/
+    /*width:60%;*/
+    /*height:auto;*/
+    /*margin:0 auto;*/
+    /*display:block;*/
+    /*padding:0;*/
+    /*color:#fff;*/
+    /*line-height:1em;*/
+    /*transform:translateY(9em);*/
+    /*background-color:#7a1501;*/
+    /*text-align:center;*/
+    
+}
+#click{
+    
+color:#000;
+font-size:1.5em;
+height:auto;
+transform:translateY(-4em);
+    
+}
+
+#top-button{
+    
+    width:80%;
+    height:14em;
     margin:0 auto;
     display:block;
+    color:yellow;
+    background-color:red;
     text-align:center;
-    
-    
     
 }
 

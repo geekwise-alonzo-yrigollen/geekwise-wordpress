@@ -9,7 +9,7 @@ html,body{
 body{
     margin: 0;
     padding: 0;
-    font-family:"Lato", sans-serif;
+    /*font-family:sans-serif;*/
 }
 .fa{
     visibility:hidden;
@@ -98,7 +98,7 @@ a:hover{
 h2{
     position:relative;
     top:30px;
-    font-family:"franchise";
+    /*font-family:"franchise";*/
     font-size: 3.0em;
     text-align:center;
     margin:40px auto 0px auto;
@@ -119,10 +119,10 @@ h3{
     /*font-weight:thin;*/
     text-transform:lowercase;
 }
-#teach{
-   
-   font-family:"ciria"; 
-    
+.teach{
+  
+   font-family:'cira' !important; 
+ 
 }
 
 /*THIS IS WHERE THE HEADER ENDS AND MAROONISH COLOR BEGINS AT BOTTOM*/
