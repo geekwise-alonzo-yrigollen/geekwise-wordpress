@@ -3,10 +3,7 @@
 
     <!--COMMENCE TOP SECTION-->
        
-   
-        
-   
-    
+  
             <?php while (have_posts()) : the_post(); ?>
             <?php the_content(); ?>
             <?php endwhile; ?>
@@ -15,11 +12,8 @@
         
     <div id='on_click'>
         <a href="Click here to checkout STEM Summer Programs">Click here to checkout STEM Summer Programs!</a>
-            <!--<span id='click'>-->
-            <!--    Click here to checkout our STEM Summer Programs!-->
-            <!--</span>-->
-
     </div>
+    
         <tr>
           <th id="topic" >Topic</th>
           <th >Duration</th>
@@ -31,6 +25,7 @@
         
         <?php query_posts('post_type=geekwise_courses'); ?>
         <?php while ( have_posts() ) : the_post(); ?>
+        
         <tr>
             <td><u><?php the_title(); ?></u><i><?php the_content(); ?></i></td>
             <td><?php the_field('duration'); ?></td> 
@@ -39,10 +34,10 @@
             <td><?php the_field('instructors'); ?></td>
             <td><button class="btn">Enroll</button></td>
         </tr>
+        
      <?php endwhile; ?>
      
     </table>
  
  <!--NEW CODE ENDS HERE-->
     
-            
