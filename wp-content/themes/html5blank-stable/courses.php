@@ -1,4 +1,3 @@
-<?php/*Template Name: courses */ ?>
 <?php get_header('courses') ?>
 
     <!--COMMENCE TOP SECTION-->
@@ -41,3 +40,4 @@
  
  <!--NEW CODE ENDS HERE-->
     
+0

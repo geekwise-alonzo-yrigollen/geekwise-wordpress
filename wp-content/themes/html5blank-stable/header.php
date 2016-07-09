@@ -17,6 +17,7 @@
         <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico"/>
     
         <link href="<?php echo get_template_directory_uri(); ?>/style.css" rel="stylesheet">
+        
         <link rel="icon" type="image/png" href="https://geekwiseacademy.com/img/geekwise-favicon.png">
 
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
