@@ -91,6 +91,8 @@ a:hover{
 .geekwise{
     margin:0 auto;
     display:block;
+    width:100%;
+    float:left;
     transform:translateY(2.2em);
     
 }

@@ -4,6 +4,7 @@
 	<main role="main">
 		<!-- section -->
 		<section>
+			<!--<p>wow</p>-->
 
 			<h1><?php _e( 'Latest Posts', 'html5blank' ); ?></h1>
 
