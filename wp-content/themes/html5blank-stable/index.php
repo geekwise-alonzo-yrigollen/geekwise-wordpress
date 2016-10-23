@@ -5,6 +5,7 @@
 		<!-- section -->
 		<section>
 			<!--<p>wow</p>-->
+			<!--<p>not sure why</p>-->
 
 			<h1><?php _e( 'Latest Posts', 'html5blank' ); ?></h1>
 
